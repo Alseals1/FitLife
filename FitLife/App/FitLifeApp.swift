@@ -1,10 +1,3 @@
-//
-//  FitLifeApp.swift
-//  FitLife
-//
-//  Created by Alandis Seals on 7/18/22.
-//
-
 import SwiftUI
 
 @main
