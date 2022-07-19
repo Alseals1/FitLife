@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C626221D2886296000FD74C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C626221C2886296000FD74C5 /* LaunchScreen.storyboard */; };
+		C62622202886355000FD74C5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626221F2886355000FD74C5 /* OnboardingView.swift */; };
+		C626222528863DB300FD74C5 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626222428863DB300FD74C5 /* CustomTabView.swift */; };
 		C663CAFA28861E280095187D /* FitLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663CAF928861E280095187D /* FitLifeApp.swift */; };
 		C663CAFC28861E280095187D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663CAFB28861E280095187D /* ContentView.swift */; };
 		C663CAFE28861E2C0095187D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C663CAFD28861E2C0095187D /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		C626221C2886296000FD74C5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C626221F2886355000FD74C5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C626222428863DB300FD74C5 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		C663CAF628861E280095187D /* FitLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C663CAF928861E280095187D /* FitLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitLifeApp.swift; sourceTree = "<group>"; };
 		C663CAFB28861E280095187D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,8 +41,8 @@
 		C626221A2886290000FD74C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C626221E2886350B00FD74C5 /* Onboarding */,
 				C663CAFB28861E280095187D /* ContentView.swift */,
-				C626221C2886296000FD74C5 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -46,9 +50,19 @@
 		C626221B2886291000FD74C5 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				C626221C2886296000FD74C5 /* LaunchScreen.storyboard */,
 				C663CAF928861E280095187D /* FitLifeApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		C626221E2886350B00FD74C5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C626222428863DB300FD74C5 /* CustomTabView.swift */,
+				C626221F2886355000FD74C5 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		C663CAED28861E280095187D = {
@@ -157,6 +171,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C626222528863DB300FD74C5 /* CustomTabView.swift in Sources */,
+				C62622202886355000FD74C5 /* OnboardingView.swift in Sources */,
 				C663CAFC28861E280095187D /* ContentView.swift in Sources */,
 				C663CAFA28861E280095187D /* FitLifeApp.swift in Sources */,
 			);
