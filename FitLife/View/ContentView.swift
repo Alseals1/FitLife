@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  FitLife
-//
-//  Created by Alandis Seals on 7/18/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
