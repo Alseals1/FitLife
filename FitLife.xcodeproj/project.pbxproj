@@ -8,19 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		C626221D2886296000FD74C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C626221C2886296000FD74C5 /* LaunchScreen.storyboard */; };
+		C62622202886355000FD74C5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626221F2886355000FD74C5 /* OnboardingView.swift */; };
+		C626222528863DB300FD74C5 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626222428863DB300FD74C5 /* CustomTabView.swift */; };
+		C626222728864B8C00FD74C5 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626222628864B8C00FD74C5 /* Verification.swift */; };
+		C626222A288650ED00FD74C5 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6262229288650ED00FD74C5 /* Color+Extension.swift */; };
+		C626222F288653E000FD74C5 /* GlobalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626222E288653E000FD74C5 /* GlobalButton.swift */; };
+		C6394C242886EF2600AA7768 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6394C232886EF2600AA7768 /* WelcomeView.swift */; };
+		C6394C5328874D7F00AA7768 /* AvatarSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6394C5228874D7F00AA7768 /* AvatarSelection.swift */; };
 		C663CAFA28861E280095187D /* FitLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663CAF928861E280095187D /* FitLifeApp.swift */; };
 		C663CAFC28861E280095187D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663CAFB28861E280095187D /* ContentView.swift */; };
 		C663CAFE28861E2C0095187D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C663CAFD28861E2C0095187D /* Assets.xcassets */; };
 		C663CB0128861E2C0095187D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C663CB0028861E2C0095187D /* Preview Assets.xcassets */; };
+		C696ACDF2888A51A00FD6A78 /* AvatarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C696ACDE2888A51A00FD6A78 /* AvatarsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C626221C2886296000FD74C5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C626221F2886355000FD74C5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C626222428863DB300FD74C5 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		C626222628864B8C00FD74C5 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		C6262229288650ED00FD74C5 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		C626222E288653E000FD74C5 /* GlobalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalButton.swift; sourceTree = "<group>"; };
+		C6394C232886EF2600AA7768 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C6394C5228874D7F00AA7768 /* AvatarSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarSelection.swift; sourceTree = "<group>"; };
 		C663CAF628861E280095187D /* FitLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C663CAF928861E280095187D /* FitLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitLifeApp.swift; sourceTree = "<group>"; };
 		C663CAFB28861E280095187D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C663CAFD28861E2C0095187D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C663CB0028861E2C0095187D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C696ACDE2888A51A00FD6A78 /* AvatarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				C663CAFB28861E280095187D /* ContentView.swift */,
-				C626221C2886296000FD74C5 /* LaunchScreen.storyboard */,
+				C626221E2886350B00FD74C5 /* Onboarding */,
+				C6394C5128874D3000AA7768 /* Welcome */,
+				C626222B2886529100FD74C5 /* ViewHelper */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -46,9 +64,46 @@
 		C626221B2886291000FD74C5 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				C626221C2886296000FD74C5 /* LaunchScreen.storyboard */,
 				C663CAF928861E280095187D /* FitLifeApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		C626221E2886350B00FD74C5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C626222428863DB300FD74C5 /* CustomTabView.swift */,
+				C626221F2886355000FD74C5 /* OnboardingView.swift */,
+				C626222628864B8C00FD74C5 /* Verification.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C6262228288650C000FD74C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C6262229288650ED00FD74C5 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C626222B2886529100FD74C5 /* ViewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C626222E288653E000FD74C5 /* GlobalButton.swift */,
+				C696ACDE2888A51A00FD6A78 /* AvatarsView.swift */,
+			);
+			path = ViewHelper;
+			sourceTree = "<group>";
+		};
+		C6394C5128874D3000AA7768 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				C6394C232886EF2600AA7768 /* WelcomeView.swift */,
+				C6394C5228874D7F00AA7768 /* AvatarSelection.swift */,
+			);
+			path = Welcome;
 			sourceTree = "<group>";
 		};
 		C663CAED28861E280095187D = {
@@ -70,6 +125,7 @@
 		C663CAF828861E280095187D /* FitLife */ = {
 			isa = PBXGroup;
 			children = (
+				C6262228288650C000FD74C5 /* Extensions */,
 				C626221B2886291000FD74C5 /* App */,
 				C626221A2886290000FD74C5 /* View */,
 				C663CAFD28861E2C0095187D /* Assets.xcassets */,
@@ -157,7 +213,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6394C5328874D7F00AA7768 /* AvatarSelection.swift in Sources */,
+				C696ACDF2888A51A00FD6A78 /* AvatarsView.swift in Sources */,
+				C626222F288653E000FD74C5 /* GlobalButton.swift in Sources */,
+				C626222528863DB300FD74C5 /* CustomTabView.swift in Sources */,
+				C626222A288650ED00FD74C5 /* Color+Extension.swift in Sources */,
+				C6394C242886EF2600AA7768 /* WelcomeView.swift in Sources */,
+				C62622202886355000FD74C5 /* OnboardingView.swift in Sources */,
 				C663CAFC28861E280095187D /* ContentView.swift in Sources */,
+				C626222728864B8C00FD74C5 /* Verification.swift in Sources */,
 				C663CAFA28861E280095187D /* FitLifeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
