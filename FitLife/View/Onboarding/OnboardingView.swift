@@ -19,11 +19,12 @@ struct OnboardingView: View {
                 Image(image)
                     .padding(.horizontal, 59)
                 
-                VStack(alignment: .center, spacing: 0) {
+                VStack(spacing: 0) {
                     Text(title)
                         .font(.system(size: 35, weight: .bold))
+                        .multilineTextAlignment(.center)
                         .padding(.top, 86)
-                        .padding(.horizontal, 18)
+                        .padding(.horizontal, 8)
                     
                     Text(description)
                         .font(.system(size: 12))

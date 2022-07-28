@@ -29,7 +29,7 @@ struct WelcomeView: View {
                 .background(RoundedRectangle(cornerRadius: 10).fill(Color.buttonorange))
                 .padding(.top, 57)
                 .fullScreenCover(isPresented: $showSheet) {
-                    AvatarsView()
+                    AvatarSelection()
                 }
             }
         }
