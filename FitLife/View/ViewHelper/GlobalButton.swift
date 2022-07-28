@@ -6,7 +6,7 @@ struct GlobalButton: View {
     let text: String
     let textColor: Color
     let color: Color
-    let value: CGFloat
+    let radian: CGFloat
     let shadowColor: Color
     let shadowRadius: CGFloat
     let shadowX: CGFloat
@@ -16,7 +16,7 @@ struct GlobalButton: View {
     var body: some View {
      
         
-        // TODO: Make this view a global button with TEXT, COLOR, WIDTHMAX, HIGHTMAX, CGFLOAT
+        
         Button(action: {action()}) {
             HStack {
                 Image(image)
@@ -28,14 +28,14 @@ struct GlobalButton: View {
         .frame(maxWidth: .infinity)
         .padding(.horizontal, 70)
         .padding(.vertical, 16)
-        .background(RoundedRectangle(cornerRadius: value).fill(color).shadow(color: shadowColor, radius: shadowRadius, x: shadowX, y: shadowY))
+        .background(RoundedRectangle(cornerRadius: radian).fill(color).shadow(color: shadowColor, radius: shadowRadius, x: shadowX, y: shadowY))
         
     }
 }
 
 struct GlobalButton_Previews: PreviewProvider {
     static var previews: some View {
-        GlobalButton(action: {}, image: "", text: "Continue with email", textColor: Color.blue, color: Color.buttonorange, value: 4, shadowColor: .black, shadowRadius: 4, shadowX: 0, shadowY: 4 )
+        GlobalButton(action: {}, image: "", text: "Continue with email", textColor: Color.blue, color: Color.buttonorange, radian: 4, shadowColor: Color.black, shadowRadius: 4, shadowX: 0, shadowY: 4 )
     }
  
 }

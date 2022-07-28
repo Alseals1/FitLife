@@ -15,11 +15,20 @@
 		C626222F288653E000FD74C5 /* GlobalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626222E288653E000FD74C5 /* GlobalButton.swift */; };
 		C6394C242886EF2600AA7768 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6394C232886EF2600AA7768 /* WelcomeView.swift */; };
 		C6394C5328874D7F00AA7768 /* AvatarSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6394C5228874D7F00AA7768 /* AvatarSelection.swift */; };
+		C64DFD452890724000A09E84 /* GenderPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DFD442890724000A09E84 /* GenderPicker.swift */; };
+		C64DFD47289074D200A09E84 /* BodyMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DFD46289074D200A09E84 /* BodyMeasurementView.swift */; };
+		C659F8D42892D13F00746DDB /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C659F8D32892D13F00746DDB /* SelectionButton.swift */; };
+		C659F8D82892D34400746DDB /* FitnessGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C659F8D72892D34400746DDB /* FitnessGoalView.swift */; };
+		C65B68FE28930D2600F98FB0 /* FinalWelcomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65B68FD28930D2600F98FB0 /* FinalWelcomView.swift */; };
 		C663CAFA28861E280095187D /* FitLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663CAF928861E280095187D /* FitLifeApp.swift */; };
 		C663CAFC28861E280095187D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663CAFB28861E280095187D /* ContentView.swift */; };
 		C663CAFE28861E2C0095187D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C663CAFD28861E2C0095187D /* Assets.xcassets */; };
 		C663CB0128861E2C0095187D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C663CB0028861E2C0095187D /* Preview Assets.xcassets */; };
+		C668D6E428907C7700D292A7 /* WorkingOutDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668D6E328907C7700D292A7 /* WorkingOutDaysView.swift */; };
+		C668D6E62890951800D292A7 /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668D6E52890951800D292A7 /* CustomPicker.swift */; };
 		C696ACDF2888A51A00FD6A78 /* AvatarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C696ACDE2888A51A00FD6A78 /* AvatarsView.swift */; };
+		C6C21FBC289062AB00D7AF40 /* GenderPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C21FBB289062AB00D7AF40 /* GenderPickView.swift */; };
+		C6CABB10288B297E0093F1CD /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CABB0F288B297E0093F1CD /* Birthday.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +40,21 @@
 		C626222E288653E000FD74C5 /* GlobalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalButton.swift; sourceTree = "<group>"; };
 		C6394C232886EF2600AA7768 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		C6394C5228874D7F00AA7768 /* AvatarSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarSelection.swift; sourceTree = "<group>"; };
+		C64DFD442890724000A09E84 /* GenderPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPicker.swift; sourceTree = "<group>"; };
+		C64DFD46289074D200A09E84 /* BodyMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMeasurementView.swift; sourceTree = "<group>"; };
+		C659F8D32892D13F00746DDB /* SelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
+		C659F8D72892D34400746DDB /* FitnessGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessGoalView.swift; sourceTree = "<group>"; };
+		C65B68FD28930D2600F98FB0 /* FinalWelcomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalWelcomView.swift; sourceTree = "<group>"; };
 		C663CAF628861E280095187D /* FitLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C663CAF928861E280095187D /* FitLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitLifeApp.swift; sourceTree = "<group>"; };
 		C663CAFB28861E280095187D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C663CAFD28861E2C0095187D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C663CB0028861E2C0095187D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C668D6E328907C7700D292A7 /* WorkingOutDaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingOutDaysView.swift; sourceTree = "<group>"; };
+		C668D6E52890951800D292A7 /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
 		C696ACDE2888A51A00FD6A78 /* AvatarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarsView.swift; sourceTree = "<group>"; };
+		C6C21FBB289062AB00D7AF40 /* GenderPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPickView.swift; sourceTree = "<group>"; };
+		C6CABB0F288B297E0093F1CD /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +111,9 @@
 			children = (
 				C626222E288653E000FD74C5 /* GlobalButton.swift */,
 				C696ACDE2888A51A00FD6A78 /* AvatarsView.swift */,
+				C64DFD442890724000A09E84 /* GenderPicker.swift */,
+				C668D6E52890951800D292A7 /* CustomPicker.swift */,
+				C659F8D32892D13F00746DDB /* SelectionButton.swift */,
 			);
 			path = ViewHelper;
 			sourceTree = "<group>";
@@ -102,6 +123,12 @@
 			children = (
 				C6394C232886EF2600AA7768 /* WelcomeView.swift */,
 				C6394C5228874D7F00AA7768 /* AvatarSelection.swift */,
+				C6CABB0F288B297E0093F1CD /* Birthday.swift */,
+				C6C21FBB289062AB00D7AF40 /* GenderPickView.swift */,
+				C64DFD46289074D200A09E84 /* BodyMeasurementView.swift */,
+				C668D6E328907C7700D292A7 /* WorkingOutDaysView.swift */,
+				C659F8D72892D34400746DDB /* FitnessGoalView.swift */,
+				C65B68FD28930D2600F98FB0 /* FinalWelcomView.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -214,15 +241,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6394C5328874D7F00AA7768 /* AvatarSelection.swift in Sources */,
+				C65B68FE28930D2600F98FB0 /* FinalWelcomView.swift in Sources */,
 				C696ACDF2888A51A00FD6A78 /* AvatarsView.swift in Sources */,
+				C6C21FBC289062AB00D7AF40 /* GenderPickView.swift in Sources */,
 				C626222F288653E000FD74C5 /* GlobalButton.swift in Sources */,
+				C6CABB10288B297E0093F1CD /* Birthday.swift in Sources */,
 				C626222528863DB300FD74C5 /* CustomTabView.swift in Sources */,
+				C668D6E62890951800D292A7 /* CustomPicker.swift in Sources */,
+				C64DFD452890724000A09E84 /* GenderPicker.swift in Sources */,
+				C659F8D82892D34400746DDB /* FitnessGoalView.swift in Sources */,
 				C626222A288650ED00FD74C5 /* Color+Extension.swift in Sources */,
 				C6394C242886EF2600AA7768 /* WelcomeView.swift in Sources */,
+				C668D6E428907C7700D292A7 /* WorkingOutDaysView.swift in Sources */,
 				C62622202886355000FD74C5 /* OnboardingView.swift in Sources */,
 				C663CAFC28861E280095187D /* ContentView.swift in Sources */,
 				C626222728864B8C00FD74C5 /* Verification.swift in Sources */,
+				C659F8D42892D13F00746DDB /* SelectionButton.swift in Sources */,
 				C663CAFA28861E280095187D /* FitLifeApp.swift in Sources */,
+				C64DFD47289074D200A09E84 /* BodyMeasurementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
