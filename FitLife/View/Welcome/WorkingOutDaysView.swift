@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct WorkingOutDaysView: View {
-    @State var showSheet: Bool = false
+    
     @State var selection: String = "1"
     
     var body: some View {
@@ -22,32 +22,42 @@ struct WorkingOutDaysView: View {
             .padding(.top, 104)
         .padding(.bottom, 18)
             
-            HStack {
+            ScrollView(.horizontal, showsIndicators: false) {
+            HStack(spacing: 40) {
+                Text("1")
+                Text("2")
+                
+                DaySelecter()
+                
+                Text("4")
+                Text("5")
+                  
                
-                    HStack {
-                        ForEach(1...10, id: \.self){ number in
-                            Picker(selection: $selection, label: Text("Picker")) {
-                                Text("\(number)")
-                                .font(.system(size: 47))
-                        }.pickerStyle(.wheel)
-                    }
+                
                 }
-                
-                
+            .font(.system(size: 40))
+            .foregroundColor(Color.subtitleTextColor)
             }
-           //.labelsHidden()
+            .frame(width: 377, height: 97)
+            .padding(.top, 82)
+            
+          Spacer()
             
 
             
-            GlobalButton(action: {
-                showSheet = true
-            }, image: "", text: "Continue", textColor: Color.white, color: Color.buttonorange, radian: 8, shadowColor: Color.black, shadowRadius: 0, shadowX: 0, shadowY: 0)
-            .fullScreenCover(isPresented: $showSheet, content: {
+            NavigationLink(destination: {
                 FitnessGoalView()
+            }, label: {
+                Text("Continue")
+                    .foregroundColor(Color.white)
+                    .padding(.vertical, 16)
+                    .padding(.horizontal, 45)
             })
+            .background(RoundedRectangle(cornerRadius: 10).fill(Color.buttonorange))
+                .padding(.top, 57)
 
         }
-        .padding(.horizontal, 25)
+       
     }
 }
 

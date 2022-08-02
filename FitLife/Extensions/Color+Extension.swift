@@ -8,4 +8,6 @@ extension Color {
     static let baseTextColor = Color("baseTextColor")
     static let secondaryBaseColor = Color("secondaryBaseColor")
     static let subtitleTextColor = Color("subtitleTextColor")
+    static let lighterGrayColor = Color("lighterGrayColor")
+    static let reviewBackgroundColor = Color("reviewBackgroundColor")
 }

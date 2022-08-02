@@ -33,16 +33,6 @@ struct FinalWelcomView: View {
                         .padding(.top, 61)
                     
                     Spacer()
-                    Button(action: {
-                      
-                    }, label: {
-                        Text("Start Now")
-                            .foregroundColor(Color.black)
-                            .padding(.vertical, 16)
-                            .padding(.horizontal, 45)
-                    })
-                    .background(RoundedRectangle(cornerRadius: 10).fill(Color.white))
-                    .padding(.bottom, 80)
                     
                 }
             }

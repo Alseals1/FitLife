@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct Birthday: View {
-    @State var showSheet: Bool = false
-    
     var body: some View {
         VStack {
             
@@ -32,13 +30,16 @@ struct Birthday: View {
            // MARK: Date Picker goes here
             
             Spacer()
-            GlobalButton(action: {
-                showSheet = true
-            }, image: "", text: "Continue", textColor: Color.white, color: Color.buttonorange, radian: 8, shadowColor: Color.black, shadowRadius: 0, shadowX: 0, shadowY: 0)
-                .padding(.horizontal, 25)
-                .fullScreenCover(isPresented: $showSheet) {
-                    GenderPickView()
-                }
+            NavigationLink(destination: {
+                GenderPickView()
+            }, label: {
+                Text("Continue")
+                    .foregroundColor(Color.white)
+                    .padding(.vertical, 16)
+                    .padding(.horizontal, 45)
+            })
+            .background(RoundedRectangle(cornerRadius: 10).fill(Color.buttonorange))
+                .padding(.top, 57)
         }
         
     }

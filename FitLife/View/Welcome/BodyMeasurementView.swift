@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct BodyMeasurementView: View {
-    @State var showSheet: Bool = false
-    @State var isSelected: Bool = false
     @State var weight: String = ""
     @State var height: String = ""
     
@@ -44,12 +42,16 @@ struct BodyMeasurementView: View {
                 
             }
             Spacer()
-            GlobalButton(action: {
-                showSheet = true
-            }, image: "", text: "Continue", textColor: Color.white, color: Color.buttonorange, radian: 8, shadowColor: Color.black, shadowRadius: 0, shadowX: 0, shadowY: 0)
-                .fullScreenCover(isPresented: $showSheet) {
-                    WorkingOutDaysView()
-                }
+            NavigationLink(destination: {
+                WorkingOutDaysView()
+            }, label: {
+                Text("Continue")
+                    .foregroundColor(Color.white)
+                    .padding(.vertical, 16)
+                    .padding(.horizontal, 45)
+            })
+            .background(RoundedRectangle(cornerRadius: 10).fill(Color.buttonorange))
+                .padding(.top, 57)
         }
         .padding(.horizontal, 25)
         
