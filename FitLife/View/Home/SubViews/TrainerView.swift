@@ -45,7 +45,7 @@ struct TrainerView: View {
                     }
                 }
 
-            }
+            }.padding(25)
         }
     }
 }
