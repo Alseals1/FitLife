@@ -212,9 +212,9 @@
 		C6A230EF28945188003BCE70 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C6D4842128A3245800A5820E /* TabsView.swift */,
 				C6A230F0289451AD003BCE70 /* HomeView.swift */,
 				C6A230FB28945CF4003BCE70 /* SubViews */,
-				C6D4842128A3245800A5820E /* TabsView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
