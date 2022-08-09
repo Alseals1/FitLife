@@ -15,10 +15,9 @@
 		C626222528863DB300FD74C5 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626222428863DB300FD74C5 /* CustomTabView.swift */; };
 		C626222728864B8C00FD74C5 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626222628864B8C00FD74C5 /* Verification.swift */; };
 		C626222A288650ED00FD74C5 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6262229288650ED00FD74C5 /* Color+Extension.swift */; };
+		C635B09F289AF68800C3A720 /* ProfileActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C635B09E289AF68800C3A720 /* ProfileActionButton.swift */; };
 		C6394C242886EF2600AA7768 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6394C232886EF2600AA7768 /* WelcomeView.swift */; };
 		C6394C5328874D7F00AA7768 /* AvatarSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6394C5228874D7F00AA7768 /* AvatarSelection.swift */; };
-		C64301C4289980AE00941749 /* PopularTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64301C3289980AE00941749 /* PopularTrainer.swift */; };
-		C64301C62899860900941749 /* MoreTrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64301C52899860900941749 /* MoreTrainer.swift */; };
 		C64DFD452890724000A09E84 /* GenderPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DFD442890724000A09E84 /* GenderPicker.swift */; };
 		C64DFD47289074D200A09E84 /* BodyMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DFD46289074D200A09E84 /* BodyMeasurementView.swift */; };
 		C659F8D42892D13F00746DDB /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C659F8D32892D13F00746DDB /* SelectionButton.swift */; };
@@ -29,19 +28,19 @@
 		C663CAFE28861E2C0095187D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C663CAFD28861E2C0095187D /* Assets.xcassets */; };
 		C663CB0128861E2C0095187D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C663CB0028861E2C0095187D /* Preview Assets.xcassets */; };
 		C668D6E428907C7700D292A7 /* WorkingOutDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668D6E328907C7700D292A7 /* WorkingOutDaysView.swift */; };
-		C668D6E62890951800D292A7 /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668D6E52890951800D292A7 /* CustomPicker.swift */; };
 		C6915D7B28983EBE0047DFD3 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6915D7A28983EBE0047DFD3 /* ReviewView.swift */; };
 		C6915D7D2899787A0047DFD3 /* AdditionalTrainning.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6915D7C2899787A0047DFD3 /* AdditionalTrainning.swift */; };
-		C696ACDF2888A51A00FD6A78 /* AvatarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C696ACDE2888A51A00FD6A78 /* AvatarsView.swift */; };
-		C6A230EE28944FA7003BCE70 /* DaySelecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A230ED28944FA7003BCE70 /* DaySelecter.swift */; };
+		C694E1E9289ADF6A00FF2D06 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694E1E8289ADF6A00FF2D06 /* RoundedCorners.swift */; };
+		C69E6A2D2899996F0056F8A3 /* TrainerProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69E6A2C2899996F0056F8A3 /* TrainerProfileView.swift */; };
 		C6A230F1289451AD003BCE70 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A230F0289451AD003BCE70 /* HomeView.swift */; };
 		C6A230F7289452B6003BCE70 /* SmallButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A230F6289452B6003BCE70 /* SmallButtonView.swift */; };
 		C6A230FA289457E4003BCE70 /* CustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A230F9289457E4003BCE70 /* CustomTab.swift */; };
 		C6A230FD28945D20003BCE70 /* DicoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A230FC28945D20003BCE70 /* DicoveryView.swift */; };
 		C6A230FF28945D72003BCE70 /* SmallPracticeButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A230FE28945D72003BCE70 /* SmallPracticeButtons.swift */; };
-		C6A2310128946529003BCE70 /* TrendingWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2310028946529003BCE70 /* TrendingWorkoutView.swift */; };
 		C6C21FBC289062AB00D7AF40 /* GenderPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C21FBB289062AB00D7AF40 /* GenderPickView.swift */; };
 		C6CABB10288B297E0093F1CD /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CABB0F288B297E0093F1CD /* Birthday.swift */; };
+		C6D4841C28A2DA0800A5820E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4841B28A2DA0800A5820E /* HeaderView.swift */; };
+		C6D4842228A3245800A5820E /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4842128A3245800A5820E /* TabsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,10 +52,9 @@
 		C626222428863DB300FD74C5 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		C626222628864B8C00FD74C5 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
 		C6262229288650ED00FD74C5 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		C635B09E289AF68800C3A720 /* ProfileActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButton.swift; sourceTree = "<group>"; };
 		C6394C232886EF2600AA7768 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		C6394C5228874D7F00AA7768 /* AvatarSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarSelection.swift; sourceTree = "<group>"; };
-		C64301C3289980AE00941749 /* PopularTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularTrainer.swift; sourceTree = "<group>"; };
-		C64301C52899860900941749 /* MoreTrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTrainer.swift; sourceTree = "<group>"; };
 		C64DFD442890724000A09E84 /* GenderPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPicker.swift; sourceTree = "<group>"; };
 		C64DFD46289074D200A09E84 /* BodyMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMeasurementView.swift; sourceTree = "<group>"; };
 		C659F8D32892D13F00746DDB /* SelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
@@ -68,19 +66,19 @@
 		C663CAFD28861E2C0095187D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C663CB0028861E2C0095187D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C668D6E328907C7700D292A7 /* WorkingOutDaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingOutDaysView.swift; sourceTree = "<group>"; };
-		C668D6E52890951800D292A7 /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
 		C6915D7A28983EBE0047DFD3 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		C6915D7C2899787A0047DFD3 /* AdditionalTrainning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalTrainning.swift; sourceTree = "<group>"; };
-		C696ACDE2888A51A00FD6A78 /* AvatarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarsView.swift; sourceTree = "<group>"; };
-		C6A230ED28944FA7003BCE70 /* DaySelecter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelecter.swift; sourceTree = "<group>"; };
+		C694E1E8289ADF6A00FF2D06 /* RoundedCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundedCorners.swift; path = ../../../MenteeGroup/Project/MenteeRepo/week3/starter/ComplexDesign/ComplexDesign/Utilities/RoundedCorners.swift; sourceTree = "<group>"; };
+		C69E6A2C2899996F0056F8A3 /* TrainerProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerProfileView.swift; sourceTree = "<group>"; };
 		C6A230F0289451AD003BCE70 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C6A230F6289452B6003BCE70 /* SmallButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallButtonView.swift; sourceTree = "<group>"; };
 		C6A230F9289457E4003BCE70 /* CustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTab.swift; sourceTree = "<group>"; };
 		C6A230FC28945D20003BCE70 /* DicoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicoveryView.swift; sourceTree = "<group>"; };
 		C6A230FE28945D72003BCE70 /* SmallPracticeButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallPracticeButtons.swift; sourceTree = "<group>"; };
-		C6A2310028946529003BCE70 /* TrendingWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingWorkoutView.swift; sourceTree = "<group>"; };
 		C6C21FBB289062AB00D7AF40 /* GenderPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPickView.swift; sourceTree = "<group>"; };
 		C6CABB0F288B297E0093F1CD /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
+		C6D4841B28A2DA0800A5820E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C6D4842128A3245800A5820E /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,20 +134,16 @@
 		C626222B2886529100FD74C5 /* ViewHelper */ = {
 			isa = PBXGroup;
 			children = (
-				C696ACDE2888A51A00FD6A78 /* AvatarsView.swift */,
 				C6915D7C2899787A0047DFD3 /* AdditionalTrainning.swift */,
 				C64DFD442890724000A09E84 /* GenderPicker.swift */,
-				C668D6E52890951800D292A7 /* CustomPicker.swift */,
 				C659F8D32892D13F00746DDB /* SelectionButton.swift */,
-				C6A230ED28944FA7003BCE70 /* DaySelecter.swift */,
 				C6A230F6289452B6003BCE70 /* SmallButtonView.swift */,
 				C6A230F9289457E4003BCE70 /* CustomTab.swift */,
 				C6A230FE28945D72003BCE70 /* SmallPracticeButtons.swift */,
-				C6A2310028946529003BCE70 /* TrendingWorkoutView.swift */,
 				C623CB592897EF6300A0FD0B /* SigninButton.swift */,
 				C6915D7A28983EBE0047DFD3 /* ReviewView.swift */,
-				C64301C3289980AE00941749 /* PopularTrainer.swift */,
-				C64301C52899860900941749 /* MoreTrainer.swift */,
+				C635B09E289AF68800C3A720 /* ProfileActionButton.swift */,
+				C6D4841B28A2DA0800A5820E /* HeaderView.swift */,
 			);
 			path = ViewHelper;
 			sourceTree = "<group>";
@@ -188,6 +182,7 @@
 		C663CAF828861E280095187D /* FitLife */ = {
 			isa = PBXGroup;
 			children = (
+				C694E1E7289ADF5200FF2D06 /* Utils */,
 				C6A230F8289457AC003BCE70 /* Models */,
 				C6262228288650C000FD74C5 /* Extensions */,
 				C626221B2886291000FD74C5 /* App */,
@@ -206,11 +201,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C694E1E7289ADF5200FF2D06 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C694E1E8289ADF6A00FF2D06 /* RoundedCorners.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		C6A230EF28945188003BCE70 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				C6A230F0289451AD003BCE70 /* HomeView.swift */,
 				C6A230FB28945CF4003BCE70 /* SubViews */,
+				C6D4842128A3245800A5820E /* TabsView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -228,6 +232,7 @@
 				C6A230FC28945D20003BCE70 /* DicoveryView.swift */,
 				C623CB5B2897FA9900A0FD0B /* TrainerView.swift */,
 				C623CB5D2897FACC00A0FD0B /* MyWorkoutsView.swift */,
+				C69E6A2C2899996F0056F8A3 /* TrainerProfileView.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -306,28 +311,27 @@
 				C6A230FA289457E4003BCE70 /* CustomTab.swift in Sources */,
 				C6394C5328874D7F00AA7768 /* AvatarSelection.swift in Sources */,
 				C65B68FE28930D2600F98FB0 /* FinalWelcomView.swift in Sources */,
-				C696ACDF2888A51A00FD6A78 /* AvatarsView.swift in Sources */,
+				C635B09F289AF68800C3A720 /* ProfileActionButton.swift in Sources */,
 				C6C21FBC289062AB00D7AF40 /* GenderPickView.swift in Sources */,
 				C623CB5A2897EF6300A0FD0B /* SigninButton.swift in Sources */,
 				C6A230FD28945D20003BCE70 /* DicoveryView.swift in Sources */,
+				C6D4842228A3245800A5820E /* TabsView.swift in Sources */,
 				C6A230FF28945D72003BCE70 /* SmallPracticeButtons.swift in Sources */,
 				C6CABB10288B297E0093F1CD /* Birthday.swift in Sources */,
-				C64301C4289980AE00941749 /* PopularTrainer.swift in Sources */,
 				C626222528863DB300FD74C5 /* CustomTabView.swift in Sources */,
 				C623CB5E2897FACC00A0FD0B /* MyWorkoutsView.swift in Sources */,
-				C668D6E62890951800D292A7 /* CustomPicker.swift in Sources */,
 				C623CB5C2897FA9900A0FD0B /* TrainerView.swift in Sources */,
 				C64DFD452890724000A09E84 /* GenderPicker.swift in Sources */,
-				C6A230EE28944FA7003BCE70 /* DaySelecter.swift in Sources */,
 				C659F8D82892D34400746DDB /* FitnessGoalView.swift in Sources */,
 				C626222A288650ED00FD74C5 /* Color+Extension.swift in Sources */,
-				C6A2310128946529003BCE70 /* TrendingWorkoutView.swift in Sources */,
+				C6D4841C28A2DA0800A5820E /* HeaderView.swift in Sources */,
 				C6394C242886EF2600AA7768 /* WelcomeView.swift in Sources */,
-				C64301C62899860900941749 /* MoreTrainer.swift in Sources */,
 				C668D6E428907C7700D292A7 /* WorkingOutDaysView.swift in Sources */,
 				C62622202886355000FD74C5 /* OnboardingView.swift in Sources */,
 				C6A230F1289451AD003BCE70 /* HomeView.swift in Sources */,
+				C69E6A2D2899996F0056F8A3 /* TrainerProfileView.swift in Sources */,
 				C6A230F7289452B6003BCE70 /* SmallButtonView.swift in Sources */,
+				C694E1E9289ADF6A00FF2D06 /* RoundedCorners.swift in Sources */,
 				C663CAFC28861E280095187D /* ContentView.swift in Sources */,
 				C626222728864B8C00FD74C5 /* Verification.swift in Sources */,
 				C659F8D42892D13F00746DDB /* SelectionButton.swift in Sources */,

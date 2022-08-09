@@ -1,10 +1,3 @@
-//
-//  WorkingOutDaysView.swift
-//  FitLife
-//
-//  Created by Alandis Seals on 7/26/22.
-//
-
 import SwiftUI
 
 struct WorkingOutDaysView: View {
@@ -13,51 +6,48 @@ struct WorkingOutDaysView: View {
     
     var body: some View {
         VStack {
-            VStack(alignment: .leading, spacing: 34) {
-                Text("how many days are you working out per week?")
-                    .font(.system(size: 35, weight: .bold))
-              
-               
-            }
-            .padding(.top, 104)
-        .padding(.bottom, 18)
-            
-            ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 40) {
-                Text("1")
-                Text("2")
-                
-                DaySelecter()
-                
-                Text("4")
-                Text("5")
-                  
-               
-                
+            HeaderView(title: "how many days are you working out per week?", description: nil) {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 40) {
+                        Text("1")
+                        Text("2")
+                        
+                        daySelecter
+                        
+                        Text("4")
+                        Text("5")
+                    }
+                    .font(.system(size: 40))
+                    .foregroundColor(Color.subtitleTextColor)
                 }
-            .font(.system(size: 40))
-            .foregroundColor(Color.subtitleTextColor)
-            }
-            .frame(width: 377, height: 97)
-            .padding(.top, 82)
-            
-          Spacer()
-            
-
-            
-            NavigationLink(destination: {
-                FitnessGoalView()
-            }, label: {
-                Text("Continue")
-                    .foregroundColor(Color.white)
-                    .padding(.vertical, 16)
-                    .padding(.horizontal, 45)
-            })
-            .background(RoundedRectangle(cornerRadius: 10).fill(Color.buttonorange))
+                .frame(width: 377, height: 97)
+                .padding(.top, 82)
+                
+                Spacer()
+                NavigationLink(destination: {
+                    FitnessGoalView()
+                }, label: {
+                    Text("Continue")
+                        .foregroundColor(Color.white)
+                        .padding(.vertical, 16)
+                        .padding(.horizontal, 45)
+                })
+                .background(RoundedRectangle(cornerRadius: 10).fill(Color.buttonorange))
                 .padding(.top, 57)
-
+            }
         }
-       
+    }
+    
+    @ViewBuilder
+    var daySelecter: some View {
+        ZStack {
+            Color.buttonorange
+            Text("3")
+                .font(.system(size: 61))
+                .foregroundColor(.white)
+        }
+        .clipShape(RoundedRectangle(cornerRadius: 33))
+        .frame(width: 97, height: 97)
     }
 }
 

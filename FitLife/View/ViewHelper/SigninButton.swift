@@ -28,7 +28,6 @@ struct SigninButton: View {
                 Text(text)
                     .foregroundColor(textColor)
             }
-            
         })
         .frame(maxWidth: .infinity)
         .padding(.horizontal, 70)
@@ -42,4 +41,4 @@ struct SigninButton_Previews: PreviewProvider {
         SigninButton(action: {}, image: "google-icon", text: "Gmail", textColor: Color.blue, buttonColor: Color.buttongrey, radian: 10, shadowColor: Color.black, shadowRadius: 4, shadowX: 0, shadowY: 4)
     }
 }
-//GlobalButton(action: {}, image: "google-icon", text: "Gmail", textColor: Color.blue, color: Color.buttongrey.opacity(0.1), radian: 4, shadowColor: Color.clear, shadowRadius: 0, shadowX: 0,shadowY: 0)
+

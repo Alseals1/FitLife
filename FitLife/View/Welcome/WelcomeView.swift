@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct WelcomeView: View {
-    @State var showSheet: Bool = false
+ 
     var body: some View {
         
         NavigationView {

@@ -1,10 +1,3 @@
-//
-//  MyWorkoutsView.swift
-//  FitLife
-//
-//  Created by Alandis Seals on 8/1/22.
-//
-
 import SwiftUI
 
 struct MyWorkoutsView: View {

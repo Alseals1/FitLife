@@ -1,13 +1,7 @@
-//
-//  FinalWelcomView.swift
-//  FitLife
-//
-//  Created by Alandis Seals on 7/28/22.
-//
-
 import SwiftUI
 
 struct FinalWelcomView: View {
+    
     var body: some View {
         ZStack {
             Color.buttonorange
@@ -34,6 +28,15 @@ struct FinalWelcomView: View {
                     
                     Spacer()
                     
+                    NavigationLink(destination: {
+                        HomeView()
+                    }, label: {
+                        Text("Let's Go")
+                            .foregroundColor(Color.orange)
+                            .padding(.vertical, 16)
+                            .padding(.horizontal, 45)
+                    }).background(RoundedRectangle(cornerRadius: 10).fill(Color.white))
+                        .padding(.top, 57)
                 }
             }
             .padding(.top, 78)
