@@ -28,7 +28,7 @@ struct GenderPicker: View {
                         .frame(width: 66, height: 69)
 
                     Text(genderName)
-                        .font(.system(size: 12))
+                        .font(.system(size: 12, weight: .semibold))
                         .foregroundColor(.black)
                 }
                 .padding(.horizontal, 44)

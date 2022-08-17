@@ -11,13 +11,27 @@
 		C623CB5C2897FA9900A0FD0B /* TrainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623CB5B2897FA9900A0FD0B /* TrainerView.swift */; };
 		C623CB5E2897FACC00A0FD0B /* MyWorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623CB5D2897FACC00A0FD0B /* MyWorkoutsView.swift */; };
 		C626221D2886296000FD74C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C626221C2886296000FD74C5 /* LaunchScreen.storyboard */; };
-		C62622202886355000FD74C5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626221F2886355000FD74C5 /* OnboardingView.swift */; };
-		C626222528863DB300FD74C5 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626222428863DB300FD74C5 /* CustomTabView.swift */; };
+		C62622202886355000FD74C5 /* OnboardingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626221F2886355000FD74C5 /* OnboardingCard.swift */; };
+		C626222528863DB300FD74C5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626222428863DB300FD74C5 /* OnboardingView.swift */; };
 		C626222728864B8C00FD74C5 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C626222628864B8C00FD74C5 /* Verification.swift */; };
 		C626222A288650ED00FD74C5 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6262229288650ED00FD74C5 /* Color+Extension.swift */; };
 		C635B09F289AF68800C3A720 /* ProfileActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C635B09E289AF68800C3A720 /* ProfileActionButton.swift */; };
 		C6394C242886EF2600AA7768 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6394C232886EF2600AA7768 /* WelcomeView.swift */; };
 		C6394C5328874D7F00AA7768 /* AvatarSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6394C5228874D7F00AA7768 /* AvatarSelection.swift */; };
+		C63CBA8428AC847B00C92273 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63CBA8328AC847B00C92273 /* Poppins-Regular.ttf */; };
+		C63CBA8628AC91CC00C92273 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63CBA8528AC91CB00C92273 /* Inter-Regular.ttf */; };
+		C63CBA8828AC92F600C92273 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63CBA8728AC92F600C92273 /* Inter-Bold.ttf */; };
+		C6494A7B28AB09C0002FF97C /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6494A7A28AB09C0002FF97C /* FontManager.swift */; };
+		C6494A8628AB0A0B002FF97C /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A7C28AB0A0B002FF97C /* Satoshi-Black.otf */; };
+		C6494A8728AB0A0B002FF97C /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A7D28AB0A0B002FF97C /* Satoshi-Regular.otf */; };
+		C6494A8828AB0A0B002FF97C /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A7E28AB0A0B002FF97C /* Satoshi-Bold.otf */; };
+		C6494A8928AB0A0B002FF97C /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A7F28AB0A0B002FF97C /* Satoshi-BlackItalic.otf */; };
+		C6494A8A28AB0A0B002FF97C /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A8028AB0A0B002FF97C /* Satoshi-MediumItalic.otf */; };
+		C6494A8B28AB0A0B002FF97C /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A8128AB0A0B002FF97C /* Satoshi-Light.otf */; };
+		C6494A8C28AB0A0B002FF97C /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A8228AB0A0B002FF97C /* Satoshi-Medium.otf */; };
+		C6494A8D28AB0A0B002FF97C /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A8328AB0A0B002FF97C /* Satoshi-LightItalic.otf */; };
+		C6494A8E28AB0A0B002FF97C /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A8428AB0A0B002FF97C /* Satoshi-Italic.otf */; };
+		C6494A8F28AB0A0B002FF97C /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A8528AB0A0B002FF97C /* Satoshi-BoldItalic.otf */; };
 		C64DFD452890724000A09E84 /* GenderPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DFD442890724000A09E84 /* GenderPicker.swift */; };
 		C64DFD47289074D200A09E84 /* BodyMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DFD46289074D200A09E84 /* BodyMeasurementView.swift */; };
 		C659F8D42892D13F00746DDB /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C659F8D32892D13F00746DDB /* SelectionButton.swift */; };
@@ -41,6 +55,7 @@
 		C6CABB10288B297E0093F1CD /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CABB0F288B297E0093F1CD /* Birthday.swift */; };
 		C6D4841C28A2DA0800A5820E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4841B28A2DA0800A5820E /* HeaderView.swift */; };
 		C6D4842228A3245800A5820E /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4842128A3245800A5820E /* TabsView.swift */; };
+		C6D4842528A34C0100A5820E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4842428A34C0100A5820E /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,13 +63,28 @@
 		C623CB5B2897FA9900A0FD0B /* TrainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerView.swift; sourceTree = "<group>"; };
 		C623CB5D2897FACC00A0FD0B /* MyWorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkoutsView.swift; sourceTree = "<group>"; };
 		C626221C2886296000FD74C5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C626221F2886355000FD74C5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		C626222428863DB300FD74C5 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		C626221F2886355000FD74C5 /* OnboardingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCard.swift; sourceTree = "<group>"; };
+		C626222428863DB300FD74C5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		C626222628864B8C00FD74C5 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
 		C6262229288650ED00FD74C5 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		C635B09E289AF68800C3A720 /* ProfileActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButton.swift; sourceTree = "<group>"; };
 		C6394C232886EF2600AA7768 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		C6394C5228874D7F00AA7768 /* AvatarSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarSelection.swift; sourceTree = "<group>"; };
+		C63CBA8328AC847B00C92273 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		C63CBA8528AC91CB00C92273 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		C63CBA8728AC92F600C92273 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		C6494A7A28AB09C0002FF97C /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		C6494A7C28AB0A0B002FF97C /* Satoshi-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.otf"; sourceTree = "<group>"; };
+		C6494A7D28AB0A0B002FF97C /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
+		C6494A7E28AB0A0B002FF97C /* Satoshi-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.otf"; sourceTree = "<group>"; };
+		C6494A7F28AB0A0B002FF97C /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.otf"; sourceTree = "<group>"; };
+		C6494A8028AB0A0B002FF97C /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.otf"; sourceTree = "<group>"; };
+		C6494A8128AB0A0B002FF97C /* Satoshi-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.otf"; sourceTree = "<group>"; };
+		C6494A8228AB0A0B002FF97C /* Satoshi-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.otf"; sourceTree = "<group>"; };
+		C6494A8328AB0A0B002FF97C /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.otf"; sourceTree = "<group>"; };
+		C6494A8428AB0A0B002FF97C /* Satoshi-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.otf"; sourceTree = "<group>"; };
+		C6494A8528AB0A0B002FF97C /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.otf"; sourceTree = "<group>"; };
+		C6494A9028AB0B41002FF97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C64DFD442890724000A09E84 /* GenderPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPicker.swift; sourceTree = "<group>"; };
 		C64DFD46289074D200A09E84 /* BodyMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMeasurementView.swift; sourceTree = "<group>"; };
 		C659F8D32892D13F00746DDB /* SelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
@@ -79,6 +109,7 @@
 		C6CABB0F288B297E0093F1CD /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 		C6D4841B28A2DA0800A5820E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		C6D4842128A3245800A5820E /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		C6D4842428A34C0100A5820E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +129,9 @@
 				C663CAFB28861E280095187D /* ContentView.swift */,
 				C626221E2886350B00FD74C5 /* Onboarding */,
 				C6394C5128874D3000AA7768 /* Welcome */,
+				C6D4842128A3245800A5820E /* TabsView.swift */,
 				C6A230EF28945188003BCE70 /* Home */,
+				C6D4842328A34BB800A5820E /* Search */,
 				C626222B2886529100FD74C5 /* ViewHelper */,
 			);
 			path = View;
@@ -116,8 +149,8 @@
 		C626221E2886350B00FD74C5 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				C626222428863DB300FD74C5 /* CustomTabView.swift */,
-				C626221F2886355000FD74C5 /* OnboardingView.swift */,
+				C626222428863DB300FD74C5 /* OnboardingView.swift */,
+				C626221F2886355000FD74C5 /* OnboardingCard.swift */,
 				C626222628864B8C00FD74C5 /* Verification.swift */,
 			);
 			path = Onboarding;
@@ -163,6 +196,27 @@
 			path = Welcome;
 			sourceTree = "<group>";
 		};
+		C6494A7928AB098F002FF97C /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				C63CBA8728AC92F600C92273 /* Inter-Bold.ttf */,
+				C63CBA8328AC847B00C92273 /* Poppins-Regular.ttf */,
+				C6494A7C28AB0A0B002FF97C /* Satoshi-Black.otf */,
+				C6494A7F28AB0A0B002FF97C /* Satoshi-BlackItalic.otf */,
+				C6494A7E28AB0A0B002FF97C /* Satoshi-Bold.otf */,
+				C6494A8528AB0A0B002FF97C /* Satoshi-BoldItalic.otf */,
+				C6494A8428AB0A0B002FF97C /* Satoshi-Italic.otf */,
+				C6494A8128AB0A0B002FF97C /* Satoshi-Light.otf */,
+				C6494A8328AB0A0B002FF97C /* Satoshi-LightItalic.otf */,
+				C6494A8228AB0A0B002FF97C /* Satoshi-Medium.otf */,
+				C6494A8028AB0A0B002FF97C /* Satoshi-MediumItalic.otf */,
+				C6494A7D28AB0A0B002FF97C /* Satoshi-Regular.otf */,
+				C63CBA8528AC91CB00C92273 /* Inter-Regular.ttf */,
+				C6494A7A28AB09C0002FF97C /* FontManager.swift */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
 		C663CAED28861E280095187D = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +236,7 @@
 		C663CAF828861E280095187D /* FitLife */ = {
 			isa = PBXGroup;
 			children = (
+				C6494A9028AB0B41002FF97C /* Info.plist */,
 				C694E1E7289ADF5200FF2D06 /* Utils */,
 				C6A230F8289457AC003BCE70 /* Models */,
 				C6262228288650C000FD74C5 /* Extensions */,
@@ -204,6 +259,7 @@
 		C694E1E7289ADF5200FF2D06 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C6494A7928AB098F002FF97C /* CustomFonts */,
 				C694E1E8289ADF6A00FF2D06 /* RoundedCorners.swift */,
 			);
 			path = Utils;
@@ -212,7 +268,6 @@
 		C6A230EF28945188003BCE70 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				C6D4842128A3245800A5820E /* TabsView.swift */,
 				C6A230F0289451AD003BCE70 /* HomeView.swift */,
 				C6A230FB28945CF4003BCE70 /* SubViews */,
 			);
@@ -235,6 +290,14 @@
 				C69E6A2C2899996F0056F8A3 /* TrainerProfileView.swift */,
 			);
 			path = SubViews;
+			sourceTree = "<group>";
+		};
+		C6D4842328A34BB800A5820E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C6D4842428A34C0100A5820E /* SearchView.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,9 +358,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6494A8828AB0A0B002FF97C /* Satoshi-Bold.otf in Resources */,
+				C63CBA8628AC91CC00C92273 /* Inter-Regular.ttf in Resources */,
+				C6494A8728AB0A0B002FF97C /* Satoshi-Regular.otf in Resources */,
 				C626221D2886296000FD74C5 /* LaunchScreen.storyboard in Resources */,
+				C6494A8D28AB0A0B002FF97C /* Satoshi-LightItalic.otf in Resources */,
+				C6494A8628AB0A0B002FF97C /* Satoshi-Black.otf in Resources */,
+				C6494A8C28AB0A0B002FF97C /* Satoshi-Medium.otf in Resources */,
 				C663CB0128861E2C0095187D /* Preview Assets.xcassets in Resources */,
+				C6494A8B28AB0A0B002FF97C /* Satoshi-Light.otf in Resources */,
+				C6494A8928AB0A0B002FF97C /* Satoshi-BlackItalic.otf in Resources */,
+				C63CBA8828AC92F600C92273 /* Inter-Bold.ttf in Resources */,
+				C63CBA8428AC847B00C92273 /* Poppins-Regular.ttf in Resources */,
+				C6494A8A28AB0A0B002FF97C /* Satoshi-MediumItalic.otf in Resources */,
 				C663CAFE28861E2C0095187D /* Assets.xcassets in Resources */,
+				C6494A8E28AB0A0B002FF97C /* Satoshi-Italic.otf in Resources */,
+				C6494A8F28AB0A0B002FF97C /* Satoshi-BoldItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +394,7 @@
 				C6D4842228A3245800A5820E /* TabsView.swift in Sources */,
 				C6A230FF28945D72003BCE70 /* SmallPracticeButtons.swift in Sources */,
 				C6CABB10288B297E0093F1CD /* Birthday.swift in Sources */,
-				C626222528863DB300FD74C5 /* CustomTabView.swift in Sources */,
+				C626222528863DB300FD74C5 /* OnboardingView.swift in Sources */,
 				C623CB5E2897FACC00A0FD0B /* MyWorkoutsView.swift in Sources */,
 				C623CB5C2897FA9900A0FD0B /* TrainerView.swift in Sources */,
 				C64DFD452890724000A09E84 /* GenderPicker.swift in Sources */,
@@ -327,7 +403,7 @@
 				C6D4841C28A2DA0800A5820E /* HeaderView.swift in Sources */,
 				C6394C242886EF2600AA7768 /* WelcomeView.swift in Sources */,
 				C668D6E428907C7700D292A7 /* WorkingOutDaysView.swift in Sources */,
-				C62622202886355000FD74C5 /* OnboardingView.swift in Sources */,
+				C62622202886355000FD74C5 /* OnboardingCard.swift in Sources */,
 				C6A230F1289451AD003BCE70 /* HomeView.swift in Sources */,
 				C69E6A2D2899996F0056F8A3 /* TrainerProfileView.swift in Sources */,
 				C6A230F7289452B6003BCE70 /* SmallButtonView.swift in Sources */,
@@ -336,6 +412,8 @@
 				C626222728864B8C00FD74C5 /* Verification.swift in Sources */,
 				C659F8D42892D13F00746DDB /* SelectionButton.swift in Sources */,
 				C6915D7B28983EBE0047DFD3 /* ReviewView.swift in Sources */,
+				C6494A7B28AB09C0002FF97C /* FontManager.swift in Sources */,
+				C6D4842528A34C0100A5820E /* SearchView.swift in Sources */,
 				C6915D7D2899787A0047DFD3 /* AdditionalTrainning.swift in Sources */,
 				C663CAFA28861E280095187D /* FitLifeApp.swift in Sources */,
 				C64DFD47289074D200A09E84 /* BodyMeasurementView.swift in Sources */,
@@ -470,6 +548,7 @@
 				DEVELOPMENT_TEAM = FZYRH5V929;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitLife/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
@@ -499,6 +578,7 @@
 				DEVELOPMENT_TEAM = FZYRH5V929;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitLife/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;

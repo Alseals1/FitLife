@@ -20,8 +20,8 @@
                                 <rect key="frame" x="140.33333333333334" y="361" width="109.33333333333334" height="122"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FitLife" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogX-Oc-k5n">
-                                <rect key="frame" x="115" y="493" width="160" height="67"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="56"/>
+                                <rect key="frame" x="112" y="493" width="166" height="67"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="56"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

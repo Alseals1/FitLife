@@ -19,7 +19,9 @@ struct FitnessGoalView: View {
                 Spacer()
                 
                 Button(action: {
-                    showView.toggle()
+                    if isSelected {
+                        showView.toggle()
+                    }
                 }, label: {
                     Text("Continue")
                         .foregroundColor(Color.white)

@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct FinalWelcomView: View {
+    @State var showView: Bool = false
     
     var body: some View {
         ZStack {
@@ -28,15 +29,23 @@ struct FinalWelcomView: View {
                     
                     Spacer()
                     
-                    NavigationLink(destination: {
-                        HomeView()
+                    
+                    Button(action: {
+                        showView.toggle()
                     }, label: {
-                        Text("Let's Go")
-                            .foregroundColor(Color.orange)
+                        Text("Start Now")
+                            .font(.custom(FontManager.Inter.bold, size: 16))
+                            .foregroundColor(Color.black)
                             .padding(.vertical, 16)
                             .padding(.horizontal, 45)
-                    }).background(RoundedRectangle(cornerRadius: 10).fill(Color.white))
-                        .padding(.top, 57)
+                    })
+                    .background(RoundedRectangle(cornerRadius: 10).fill(Color.white))
+                    .padding(.top, 57)
+                    .padding(.bottom, 80)
+                    .fullScreenCover(isPresented: $showView, content: {
+                                        TabsView()
+                    
+                                    })
                 }
             }
             .padding(.top, 78)

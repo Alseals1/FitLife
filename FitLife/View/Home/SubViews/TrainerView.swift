@@ -54,7 +54,7 @@ struct TrainerView: View {
                     .clipShape(Circle())
                 VStack {
                     Text("Aquaman")
-                        .font(.system(size: 14, weight: .semibold))
+                        .font(.custom(FontManager.Inter.bold, size: 14))
                     
                     Text("Pro trainer")
                         .font(.system(size: 12, weight: .regular))
@@ -73,7 +73,7 @@ struct TrainerView: View {
                         .clipShape(Circle())
                     VStack(alignment: .leading, spacing: 4){
                         Text("The Batman")
-                            .font(.system(size: 14, weight: .semibold))
+                            .font(.custom(FontManager.Inter.bold, size: 14))
                            
                         Text("Pro Trainer")
                             .font(.system(size: 12, weight: .regular))

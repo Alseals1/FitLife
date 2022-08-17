@@ -8,14 +8,14 @@ struct WelcomeView: View {
             VStack {
                 VStack {
                     Text("Welcome, Batman!")
-                        .font(.system(size: 35, weight: .bold))
+                        .font(.custom(FontManager.Satoshi.bold, size: 35))
                         .foregroundColor(Color.baseTextColor)
                         .padding(.horizontal, 35)
                         .padding(.bottom, 21)
                     
                     
                     Text("Let us know your personal informations so we can help you building your Program better")
-                        .font(.system(size: 14, weight: .regular))
+                        .font(.custom(FontManager.Inter.regular, size: 14))
                         .multilineTextAlignment(.center)
                         .padding(.horizontal, 44)
                     
@@ -24,6 +24,7 @@ struct WelcomeView: View {
                         AvatarSelection()
                     }, label: {
                         Text("Next")
+                            .font(.custom(FontManager.Inter.bold, size: 16))
                             .foregroundColor(Color.white)
                             .padding(.vertical, 16)
                             .padding(.horizontal, 45)

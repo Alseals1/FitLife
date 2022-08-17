@@ -26,6 +26,7 @@ struct SigninButton: View {
             HStack {
                 Image(image)
                 Text(text)
+                
                     .foregroundColor(textColor)
             }
         })

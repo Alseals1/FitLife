@@ -5,7 +5,7 @@ struct HomeView: View {
         VStack {
             HStack{
                 Text("Good \nMorning")
-                    .font(.system(size: 39, weight: .bold))
+                    .font(.custom(FontManager.Satoshi.bold, size: 39))
                 Spacer()
                 
                 HStack {

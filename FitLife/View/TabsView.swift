@@ -2,6 +2,7 @@ import SwiftUI
 
 struct TabsView: View {
     @State var selectedTab: Int = 0
+    
     var body: some View {
         TabView(selection: $selectedTab) {
            HomeView()
@@ -11,7 +12,7 @@ struct TabsView: View {
                         
                 }.tag(0)
             
-            Text("Search")
+            SearchView()
                 .tabItem {
                     Image("search")
                     Text("Search")
@@ -30,6 +31,7 @@ struct TabsView: View {
                 }
         }
         .accentColor(.buttonorange)
+        .tabViewStyle(.automatic)
     }
 }
 

@@ -6,7 +6,7 @@ struct DicoveryView: View {
             VStack {
                 HStack {
                     Text("Practice")
-                        .font(.system(size: 20, weight: .bold))
+                        .font(.custom(FontManager.Satoshi.bold, size: 20))
                         
                     
                     Spacer()
@@ -21,7 +21,7 @@ struct DicoveryView: View {
                 VStack {
                     HStack {
                         Text("Trending Working 🔥")
-                            .font(.system(size: 18, weight: .bold))
+                            .font(.custom(FontManager.Satoshi.bold, size: 18))
                         Spacer()
                     }
                     
@@ -30,7 +30,7 @@ struct DicoveryView: View {
                     
                     HStack {
                         Text("Additional training")
-                            .font(.system(size: 16, weight: .bold))
+                            .font(.custom(FontManager.Satoshi.bold, size: 16))
                             .padding(.top, 24)
                         
                         Spacer()
@@ -54,7 +54,7 @@ struct DicoveryView: View {
                     Text("Beginner")
                         .padding(.horizontal, 11)
                         .padding(.vertical, 4)
-                        .font(.system(size: 10))
+                        .font(.custom(FontManager.Satoshi.light, size: 10))
                         .foregroundColor(.white)
                         .background(
                             .regularMaterial.opacity(0.6),
@@ -63,7 +63,7 @@ struct DicoveryView: View {
                     Text("Full Body")
                         .padding(.horizontal, 11)
                         .padding(.vertical, 4)
-                        .font(.system(size: 10))
+                        .font(.custom(FontManager.Satoshi.light, size: 10))
                         .foregroundColor(.white)
                         .background(
                             .regularMaterial.opacity(0.6),
@@ -72,19 +72,16 @@ struct DicoveryView: View {
                     Spacer()
                 }
                 .padding(.top, 20)
-                
                
                 Spacer()
-               
                     VStack(spacing: 0) {
                         HStack {
                             Text("Push Your Limit")
-                                .font(.system(size: 16, weight: .bold))
+                                .font(.custom(FontManager.Satoshi.bold, size: 16))
                             Spacer()
                             ReviewView()
                                 .offset(y: 20)
                         }
-                        
                         HStack(spacing: 0) {
                                 Image(systemName: "flame")
                                 .resizable()
@@ -92,6 +89,7 @@ struct DicoveryView: View {
                                 .padding(.trailing, 6)
                             
                                 Text("360 kcal")
+                                .font(.custom(FontManager.Satoshi.medium, size: 10))
                                 .padding(.trailing, 20)
                             
                                 Image(systemName: "clock.fill")
@@ -100,6 +98,7 @@ struct DicoveryView: View {
                                 .padding(.trailing, 6)
                             
                                 Text("1h 25min" )
+                                .font(.custom(FontManager.Satoshi.medium, size: 10))
                             
                             Spacer()
                         }

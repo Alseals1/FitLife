@@ -15,11 +15,11 @@ struct HeaderView<Content: View>: View {
         VStack {
             VStack(alignment: .leading,spacing: 14) {
                 Text(title)
-                    .font(.system(size: 35, weight: .bold))
+                    .font(.custom(FontManager.Satoshi.bold, size: 35))
                 
                 if let description = description {
                     Text(description)
-                        .font(.system(size: 14))
+                        .font(.custom(FontManager.Inter.regular, size: 14))
                         .multilineTextAlignment(.leading)
                         .foregroundColor(Color.subtitleTextColor)
                         .padding(.trailing, 18)
