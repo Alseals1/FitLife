@@ -21,6 +21,7 @@
 		C63CBA8428AC847B00C92273 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63CBA8328AC847B00C92273 /* Poppins-Regular.ttf */; };
 		C63CBA8628AC91CC00C92273 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63CBA8528AC91CB00C92273 /* Inter-Regular.ttf */; };
 		C63CBA8828AC92F600C92273 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63CBA8728AC92F600C92273 /* Inter-Bold.ttf */; };
+		C63CBA8B28AD084E00C92273 /* TrainerSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CBA8A28AD084E00C92273 /* TrainerSessionView.swift */; };
 		C6494A7B28AB09C0002FF97C /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6494A7A28AB09C0002FF97C /* FontManager.swift */; };
 		C6494A8628AB0A0B002FF97C /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A7C28AB0A0B002FF97C /* Satoshi-Black.otf */; };
 		C6494A8728AB0A0B002FF97C /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A7D28AB0A0B002FF97C /* Satoshi-Regular.otf */; };
@@ -32,6 +33,7 @@
 		C6494A8D28AB0A0B002FF97C /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A8328AB0A0B002FF97C /* Satoshi-LightItalic.otf */; };
 		C6494A8E28AB0A0B002FF97C /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A8428AB0A0B002FF97C /* Satoshi-Italic.otf */; };
 		C6494A8F28AB0A0B002FF97C /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A8528AB0A0B002FF97C /* Satoshi-BoldItalic.otf */; };
+		C64A410228AFE60B0007D390 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64A410128AFE60B0007D390 /* SearchBar.swift */; };
 		C64DFD452890724000A09E84 /* GenderPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DFD442890724000A09E84 /* GenderPicker.swift */; };
 		C64DFD47289074D200A09E84 /* BodyMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DFD46289074D200A09E84 /* BodyMeasurementView.swift */; };
 		C659F8D42892D13F00746DDB /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C659F8D32892D13F00746DDB /* SelectionButton.swift */; };
@@ -51,6 +53,9 @@
 		C6A230FA289457E4003BCE70 /* CustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A230F9289457E4003BCE70 /* CustomTab.swift */; };
 		C6A230FD28945D20003BCE70 /* DicoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A230FC28945D20003BCE70 /* DicoveryView.swift */; };
 		C6A230FF28945D72003BCE70 /* SmallPracticeButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A230FE28945D72003BCE70 /* SmallPracticeButtons.swift */; };
+		C6A659DA28AE9114007FA704 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A659D928AE9113007FA704 /* SoundManager.swift */; };
+		C6A659DD28AE9138007FA704 /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6A659DC28AE9138007FA704 /* sound1.mp3 */; };
+		C6A659DF28AE93AE007FA704 /* SoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A659DE28AE93AE007FA704 /* SoundView.swift */; };
 		C6C21FBC289062AB00D7AF40 /* GenderPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C21FBB289062AB00D7AF40 /* GenderPickView.swift */; };
 		C6CABB10288B297E0093F1CD /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CABB0F288B297E0093F1CD /* Birthday.swift */; };
 		C6D4841C28A2DA0800A5820E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4841B28A2DA0800A5820E /* HeaderView.swift */; };
@@ -73,6 +78,7 @@
 		C63CBA8328AC847B00C92273 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		C63CBA8528AC91CB00C92273 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		C63CBA8728AC92F600C92273 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		C63CBA8A28AD084E00C92273 /* TrainerSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerSessionView.swift; sourceTree = "<group>"; };
 		C6494A7A28AB09C0002FF97C /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		C6494A7C28AB0A0B002FF97C /* Satoshi-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.otf"; sourceTree = "<group>"; };
 		C6494A7D28AB0A0B002FF97C /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
@@ -85,6 +91,7 @@
 		C6494A8428AB0A0B002FF97C /* Satoshi-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.otf"; sourceTree = "<group>"; };
 		C6494A8528AB0A0B002FF97C /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.otf"; sourceTree = "<group>"; };
 		C6494A9028AB0B41002FF97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C64A410128AFE60B0007D390 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		C64DFD442890724000A09E84 /* GenderPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPicker.swift; sourceTree = "<group>"; };
 		C64DFD46289074D200A09E84 /* BodyMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMeasurementView.swift; sourceTree = "<group>"; };
 		C659F8D32892D13F00746DDB /* SelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
@@ -105,6 +112,9 @@
 		C6A230F9289457E4003BCE70 /* CustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTab.swift; sourceTree = "<group>"; };
 		C6A230FC28945D20003BCE70 /* DicoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicoveryView.swift; sourceTree = "<group>"; };
 		C6A230FE28945D72003BCE70 /* SmallPracticeButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallPracticeButtons.swift; sourceTree = "<group>"; };
+		C6A659D928AE9113007FA704 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		C6A659DC28AE9138007FA704 /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
+		C6A659DE28AE93AE007FA704 /* SoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundView.swift; sourceTree = "<group>"; };
 		C6C21FBB289062AB00D7AF40 /* GenderPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPickView.swift; sourceTree = "<group>"; };
 		C6CABB0F288B297E0093F1CD /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 		C6D4841B28A2DA0800A5820E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -132,6 +142,7 @@
 				C6D4842128A3245800A5820E /* TabsView.swift */,
 				C6A230EF28945188003BCE70 /* Home */,
 				C6D4842328A34BB800A5820E /* Search */,
+				C63CBA8928AD03FE00C92273 /* TrainerProfile */,
 				C626222B2886529100FD74C5 /* ViewHelper */,
 			);
 			path = View;
@@ -177,6 +188,8 @@
 				C6915D7A28983EBE0047DFD3 /* ReviewView.swift */,
 				C635B09E289AF68800C3A720 /* ProfileActionButton.swift */,
 				C6D4841B28A2DA0800A5820E /* HeaderView.swift */,
+				C6A659DE28AE93AE007FA704 /* SoundView.swift */,
+				C64A410128AFE60B0007D390 /* SearchBar.swift */,
 			);
 			path = ViewHelper;
 			sourceTree = "<group>";
@@ -194,6 +207,15 @@
 				C65B68FD28930D2600F98FB0 /* FinalWelcomView.swift */,
 			);
 			path = Welcome;
+			sourceTree = "<group>";
+		};
+		C63CBA8928AD03FE00C92273 /* TrainerProfile */ = {
+			isa = PBXGroup;
+			children = (
+				C69E6A2C2899996F0056F8A3 /* TrainerProfileView.swift */,
+				C63CBA8A28AD084E00C92273 /* TrainerSessionView.swift */,
+			);
+			path = TrainerProfile;
 			sourceTree = "<group>";
 		};
 		C6494A7928AB098F002FF97C /* CustomFonts */ = {
@@ -238,9 +260,9 @@
 			children = (
 				C6494A9028AB0B41002FF97C /* Info.plist */,
 				C694E1E7289ADF5200FF2D06 /* Utils */,
+				C626221B2886291000FD74C5 /* App */,
 				C6A230F8289457AC003BCE70 /* Models */,
 				C6262228288650C000FD74C5 /* Extensions */,
-				C626221B2886291000FD74C5 /* App */,
 				C626221A2886290000FD74C5 /* View */,
 				C663CAFD28861E2C0095187D /* Assets.xcassets */,
 				C663CAFF28861E2C0095187D /* Preview Content */,
@@ -259,6 +281,7 @@
 		C694E1E7289ADF5200FF2D06 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C6A659D828AE90F7007FA704 /* SoundManager */,
 				C6494A7928AB098F002FF97C /* CustomFonts */,
 				C694E1E8289ADF6A00FF2D06 /* RoundedCorners.swift */,
 			);
@@ -287,9 +310,25 @@
 				C6A230FC28945D20003BCE70 /* DicoveryView.swift */,
 				C623CB5B2897FA9900A0FD0B /* TrainerView.swift */,
 				C623CB5D2897FACC00A0FD0B /* MyWorkoutsView.swift */,
-				C69E6A2C2899996F0056F8A3 /* TrainerProfileView.swift */,
 			);
 			path = SubViews;
+			sourceTree = "<group>";
+		};
+		C6A659D828AE90F7007FA704 /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				C6A659DB28AE9121007FA704 /* Sounds */,
+				C6A659D928AE9113007FA704 /* SoundManager.swift */,
+			);
+			path = SoundManager;
+			sourceTree = "<group>";
+		};
+		C6A659DB28AE9121007FA704 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C6A659DC28AE9138007FA704 /* sound1.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		C6D4842328A34BB800A5820E /* Search */ = {
@@ -368,6 +407,7 @@
 				C663CB0128861E2C0095187D /* Preview Assets.xcassets in Resources */,
 				C6494A8B28AB0A0B002FF97C /* Satoshi-Light.otf in Resources */,
 				C6494A8928AB0A0B002FF97C /* Satoshi-BlackItalic.otf in Resources */,
+				C6A659DD28AE9138007FA704 /* sound1.mp3 in Resources */,
 				C63CBA8828AC92F600C92273 /* Inter-Bold.ttf in Resources */,
 				C63CBA8428AC847B00C92273 /* Poppins-Regular.ttf in Resources */,
 				C6494A8A28AB0A0B002FF97C /* Satoshi-MediumItalic.otf in Resources */,
@@ -384,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64A410228AFE60B0007D390 /* SearchBar.swift in Sources */,
 				C6A230FA289457E4003BCE70 /* CustomTab.swift in Sources */,
 				C6394C5328874D7F00AA7768 /* AvatarSelection.swift in Sources */,
 				C65B68FE28930D2600F98FB0 /* FinalWelcomView.swift in Sources */,
@@ -398,11 +439,13 @@
 				C623CB5E2897FACC00A0FD0B /* MyWorkoutsView.swift in Sources */,
 				C623CB5C2897FA9900A0FD0B /* TrainerView.swift in Sources */,
 				C64DFD452890724000A09E84 /* GenderPicker.swift in Sources */,
+				C6A659DF28AE93AE007FA704 /* SoundView.swift in Sources */,
 				C659F8D82892D34400746DDB /* FitnessGoalView.swift in Sources */,
 				C626222A288650ED00FD74C5 /* Color+Extension.swift in Sources */,
 				C6D4841C28A2DA0800A5820E /* HeaderView.swift in Sources */,
 				C6394C242886EF2600AA7768 /* WelcomeView.swift in Sources */,
 				C668D6E428907C7700D292A7 /* WorkingOutDaysView.swift in Sources */,
+				C6A659DA28AE9114007FA704 /* SoundManager.swift in Sources */,
 				C62622202886355000FD74C5 /* OnboardingCard.swift in Sources */,
 				C6A230F1289451AD003BCE70 /* HomeView.swift in Sources */,
 				C69E6A2D2899996F0056F8A3 /* TrainerProfileView.swift in Sources */,
@@ -415,6 +458,7 @@
 				C6494A7B28AB09C0002FF97C /* FontManager.swift in Sources */,
 				C6D4842528A34C0100A5820E /* SearchView.swift in Sources */,
 				C6915D7D2899787A0047DFD3 /* AdditionalTrainning.swift in Sources */,
+				C63CBA8B28AD084E00C92273 /* TrainerSessionView.swift in Sources */,
 				C663CAFA28861E280095187D /* FitLifeApp.swift in Sources */,
 				C64DFD47289074D200A09E84 /* BodyMeasurementView.swift in Sources */,
 			);

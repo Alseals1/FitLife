@@ -7,7 +7,7 @@ struct TabsView: View {
         TabView(selection: $selectedTab) {
            HomeView()
                 .tabItem {
-                    Image("home")
+                    Image(systemName: "house")
                     Text("Home")
                         
                 }.tag(0)
@@ -22,16 +22,17 @@ struct TabsView: View {
                 .tabItem {
                     Image("document-text")
                     Text("Article")
-                }
+                }.tag(2)
             
           TrainerProfileView()
                 .tabItem {
                     Image("user")
                     Text("Profile")
-                }
+                }.tag(3)
         }
         .accentColor(.buttonorange)
         .tabViewStyle(.automatic)
+       
     }
 }
 

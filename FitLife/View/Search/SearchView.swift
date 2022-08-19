@@ -6,17 +6,7 @@ struct SearchView: View {
     var recentSearch = ["Push Aps", "Best Trainer", "Six Pack In One Day"]
     var body: some View {
         VStack {
-            HStack(spacing: 16) {
-               Image(systemName: "magnifyingglass")
-                
-                TextField("Search Exercise", text: $searchText)
-            }
-            .font(.system(size: 14, weight: .medium))
-            .padding()
-            .background(
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color.buttongrey))
-        .padding()
+            SearchBar(searchText: $searchText)
             ScrollView {
                 HStack {
                     VStack(alignment: .leading, spacing: 16) {
