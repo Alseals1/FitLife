@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct TitleRow: View {
-    let urlImage = URL(string: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60")
+    let urlImage = URL(string: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80")
     let name = "Chrissy James"
     
     var body: some View {
@@ -22,14 +22,26 @@ struct TitleRow: View {
                 
                 Text("online")
                     .font(.caption2)
-                    .foregroundColor(.gray)
+                    .foregroundColor(.green)
             }
             
-            Image(systemName: "phone.fill")
-                .foregroundColor(.gray)
-                .padding(10)
-                .background(.white)
+            HStack {
+                Image(systemName: "phone.fill")
+                    .resizable()
+                    .foregroundColor(Color.buttonorange)
+                    .frame(width: 7, height: 7)
+                    .padding(7)
+                    .background(.white)
                 .cornerRadius(50)
+                
+                Image(systemName: "video.fill")
+                    .resizable()
+                    .foregroundColor(Color.buttonorange)
+                    .frame(width: 7, height: 7)
+                    .padding(7)
+                    .background(.white)
+                .cornerRadius(50)
+            }
         }
         .padding()
     }

@@ -56,11 +56,8 @@ struct TrainerProfileView: View {
                                 Text("1200 Reviews")
                             }
                         }
-                        HStack{
-                            ProfileActionButton(action: {}, text: "Call", image: "phone")
-                            ProfileActionButton(action: {}, text: "Chat", image: "bubble.left")
-                            ProfileActionButton(action: {}, text: "Follow", image: "heart")
-                        }.padding(.bottom, 20)
+                        ContactActionButtons()
+                        
                         ForEach(1...6, id: \.self) { _ in
                             
                             NavigationLink {
@@ -68,12 +65,7 @@ struct TrainerProfileView: View {
                             } label: {
                                 trainerWorkoutList
                             }
-
                         }
-//                        trainerWorkoutList
-//                        trainerWorkoutList
-//                        trainerWorkoutList
-                        //TrainerSessionView()
                     }
                     .padding(.bottom)
                 }
@@ -121,5 +113,23 @@ struct TrainerProfileView: View {
 struct TrainerProfileView_Previews: PreviewProvider {
     static var previews: some View {
         TrainerProfileView()
+    }
+}
+
+struct ContactActionButtons: View {
+    var body: some View {
+        HStack{
+            NavigationLink {
+                MessageView()
+            } label: {
+                ProfileActionButton(text: "Call", image: "phone")
+            }
+            NavigationLink {
+                MessageView()
+            } label: {
+                ProfileActionButton(text: "Chat", image: "bubble.left")
+            }
+            ProfileActionButton(text: "Follow", image: "heart")
+        }.padding(.bottom, 20)
     }
 }

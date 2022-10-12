@@ -65,6 +65,9 @@
 		C6D4842228A3245800A5820E /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4842128A3245800A5820E /* TabsView.swift */; };
 		C6D4842528A34C0100A5820E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4842428A34C0100A5820E /* SearchView.swift */; };
 		C6D9A9E928F74E54005F0E0A /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D9A9E828F74E54005F0E0A /* TitleRow.swift */; };
+		C6D9A9EB28F76848005F0E0A /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D9A9EA28F76848005F0E0A /* MessageView.swift */; };
+		C6D9A9ED28F769AD005F0E0A /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D9A9EC28F769AD005F0E0A /* MessageBubble.swift */; };
+		C6D9A9EF28F769D2005F0E0A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D9A9EE28F769D2005F0E0A /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +131,9 @@
 		C6D4842128A3245800A5820E /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		C6D4842428A34C0100A5820E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		C6D9A9E828F74E54005F0E0A /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
+		C6D9A9EA28F76848005F0E0A /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		C6D9A9EC28F769AD005F0E0A /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		C6D9A9EE28F769D2005F0E0A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +333,7 @@
 		C6A230F8289457AC003BCE70 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C6D9A9EE28F769D2005F0E0A /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -371,6 +378,8 @@
 			isa = PBXGroup;
 			children = (
 				C6D9A9E828F74E54005F0E0A /* TitleRow.swift */,
+				C6D9A9EA28F76848005F0E0A /* MessageView.swift */,
+				C6D9A9EC28F769AD005F0E0A /* MessageBubble.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -472,16 +481,19 @@
 				C6A230FD28945D20003BCE70 /* DicoveryView.swift in Sources */,
 				C6D4842228A3245800A5820E /* TabsView.swift in Sources */,
 				C6A230FF28945D72003BCE70 /* SmallPracticeButtons.swift in Sources */,
+				C6D9A9EB28F76848005F0E0A /* MessageView.swift in Sources */,
 				C6CABB10288B297E0093F1CD /* Birthday.swift in Sources */,
 				C626222528863DB300FD74C5 /* OnboardingView.swift in Sources */,
 				C623CB5E2897FACC00A0FD0B /* MyWorkoutsView.swift in Sources */,
 				C623CB5C2897FA9900A0FD0B /* TrainerView.swift in Sources */,
+				C6D9A9EF28F769D2005F0E0A /* Message.swift in Sources */,
 				C64DFD452890724000A09E84 /* GenderPicker.swift in Sources */,
 				C64A410928AFFC2A0007D390 /* RoundedCorners.swift in Sources */,
 				C6A659DF28AE93AE007FA704 /* SoundView.swift in Sources */,
 				C659F8D82892D34400746DDB /* FitnessGoalView.swift in Sources */,
 				C626222A288650ED00FD74C5 /* Color+Extension.swift in Sources */,
 				C6D4841C28A2DA0800A5820E /* HeaderView.swift in Sources */,
+				C6D9A9ED28F769AD005F0E0A /* MessageBubble.swift in Sources */,
 				C6394C242886EF2600AA7768 /* WelcomeView.swift in Sources */,
 				C668D6E428907C7700D292A7 /* WorkingOutDaysView.swift in Sources */,
 				C656DF4B28F5ED69007FE7EE /* ExerciseView.swift in Sources */,
