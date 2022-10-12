@@ -32,7 +32,12 @@ struct FitnessGoalView: View {
                     .fill(Color.buttonorange))
                 .padding(.top, 57)
                 .sheet(isPresented: $showView) {
-                    FinalWelcomView()
+                    if #available(iOS 16.0, *) {
+                        FinalWelcomView()
+                            .presentationDetents([.medium])
+                    } else {
+                        FinalWelcomView()
+                    }
                 }
             }
         }

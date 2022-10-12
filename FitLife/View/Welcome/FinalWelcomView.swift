@@ -21,11 +21,12 @@ struct FinalWelcomView: View {
                 }
                 Spacer()
                 VStack(alignment: .center) {
-                    Text("You are ready to start workout \nnow")
+                    Text("You are ready to \nstart workout now")
                         .font(.system(size: 33, weight: .bold))
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)
-                        .padding(.top, 61)
+                        
+                       
                     
                     Spacer()
                     
@@ -40,12 +41,11 @@ struct FinalWelcomView: View {
                             .padding(.horizontal, 45)
                     })
                     .background(RoundedRectangle(cornerRadius: 10).fill(Color.white))
-                    .padding(.top, 57)
-                    .padding(.bottom, 80)
                     .fullScreenCover(isPresented: $showView, content: {
-                                        TabsView()
+                        TabsView()
                     
                                     })
+                    
                 }
             }
             .padding(.top, 78)

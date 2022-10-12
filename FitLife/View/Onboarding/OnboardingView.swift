@@ -2,7 +2,6 @@ import SwiftUI
 
 struct OnboardingView: View {
     var body: some View {
-        NavigationView {
             TabView {
                 OnboardingCard(title: "Workout From Home", image: "barbell-image",
                                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan, sollicitudin ornare cras ut ac. Neque amet, at gravidavel nibh gravida.")
@@ -14,7 +13,6 @@ struct OnboardingView: View {
             }
             .tabViewStyle(PageTabViewStyle())
             .indexViewStyle(.page(backgroundDisplayMode: .always))
-        }
     }
 }
 

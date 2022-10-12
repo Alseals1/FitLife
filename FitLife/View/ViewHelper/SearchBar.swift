@@ -9,11 +9,12 @@ import SwiftUI
 
 struct SearchBar: View {
     @Binding var searchText: String
+    var text: String
     var body: some View {
         HStack(spacing: 16) {
            Image(systemName: "magnifyingglass")
             
-            TextField("Search Exercise", text: $searchText)
+            TextField(text, text: $searchText)
         }
         .font(.system(size: 14, weight: .medium))
         .padding()
@@ -26,6 +27,6 @@ struct SearchBar: View {
 
 struct SearchBar_Previews: PreviewProvider {
     static var previews: some View {
-        SearchBar(searchText: .constant(""))
+        SearchBar(searchText: .constant(""), text: "Search for a topic...")
     }
 }

@@ -70,13 +70,11 @@ struct TrainerProfileView: View {
                 }
             }
             .ignoresSafeArea()
-            
         }
         .frame(minWidth: UIScreen.main.bounds.width ,maxWidth: .infinity, alignment: .leading)
             .foregroundColor(Color.black)
             .background(.white)
             .cornerRadius(37, corners: [.topLeft, .topRight])
-        
     }
     
     @ViewBuilder

@@ -39,8 +39,6 @@ struct Verification: View {
                         SigninButton(action: {}, image: "google-icon", text: "Gmail", textColor: Color.blue, buttonColor: Color.buttongrey.opacity(0.1), radian: 4, shadowColor: Color.clear, shadowRadius: 0, shadowX: 0,shadowY: 0)
                         
                         SigninButton(action: {}, image: "facebook-icon", text: "Facebook", textColor: Color.facebooktextcolor, buttonColor: Color.buttongrey.opacity(0.1), radian: 4, shadowColor: Color.clear, shadowRadius: 0, shadowX: 0,shadowY: 0)
-                          
-                           
                     }
                     .padding(.horizontal, 25)
                     .padding(.top, 36)

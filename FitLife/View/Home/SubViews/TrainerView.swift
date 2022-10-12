@@ -83,10 +83,11 @@ struct TrainerView: View {
                     
                     HStack {
                         ZStack {
-                            Color.reviewBackgroundColor.opacity(0.7)
+                            Color.reviewBackgroundColor.opacity(0.5)
                             HStack(spacing: 3) {
                                 Image(systemName: "star.fill")
                                     .resizable()
+                                    .foregroundColor(Color.reviewBackgroundColor)
                                 .frame(width: 13, height: 13)
                                 
                                 Text("4.8")

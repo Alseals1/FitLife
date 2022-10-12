@@ -7,16 +7,10 @@ struct DicoveryView: View {
                 HStack {
                     Text("Practice")
                         .font(.custom(FontManager.Satoshi.bold, size: 20))
-                        
                     
                     Spacer()
                 }
-                HStack(spacing: 40) {
-                    SmallPracticeButtons(bgColor: Color.lighterGrayColor, image: "muscleMale", action: {})
-                    SmallPracticeButtons(bgColor: Color.lighterGrayColor, image: "swimmerMale", action: {})
-                    SmallPracticeButtons(bgColor: Color.lighterGrayColor, image: "yogaMale", action: {})
-                    SmallPracticeButtons(bgColor: Color.lighterGrayColor, image: "muscleMale", action: {})
-                }
+                PracticesHorizontalRow()
                 
                 VStack {
                     HStack {
@@ -25,7 +19,6 @@ struct DicoveryView: View {
                         Spacer()
                     }
                     
-                                
                     trendingWorkoutView
                     
                     HStack {
@@ -36,8 +29,11 @@ struct DicoveryView: View {
                         Spacer()
                     }
                     ForEach(0..<9){ traning in
-                        AdditionalTrainning()
-                        
+                        NavigationLink {
+                            TrainerView()
+                        } label: {
+                            AdditionalTrainning()
+                        }
                     }
                 }
                 .padding(.top, 33)
@@ -76,34 +72,38 @@ struct DicoveryView: View {
                 Spacer()
                     VStack(spacing: 0) {
                         HStack {
-                            Text("Push Your Limit")
-                                .font(.custom(FontManager.Satoshi.bold, size: 16))
+                            VStack(alignment: .leading) {
+                                Text("Push Your Limit")
+                                    .font(.custom(FontManager.Satoshi.bold, size: 16))
+                                HStack(spacing: 0) {
+                                        Image(systemName: "flame")
+                                        .resizable()
+                                        .frame(width: 9.8, height: 11.2)
+                                        .padding(.trailing, 6)
+                                    
+                                        Text("360 kcal")
+                                        .font(.custom(FontManager.Satoshi.medium, size: 10))
+                                        .padding(.trailing, 20)
+                                    
+                                        Image(systemName: "clock.fill")
+                                        .resizable()
+                                        .frame(width: 12, height: 12)
+                                        .padding(.trailing, 6)
+                                    
+                                        Text("1h 25min" )
+                                        .font(.custom(FontManager.Satoshi.medium, size: 10))
+                                    
+                                    Spacer()
+                                }
+                                .font(.system(size: 10, weight: .medium))
+                                .padding(.bottom, 16)
+                            }
                             Spacer()
                             ReviewView()
-                                .offset(y: 20)
+                                .frame(width: 53, height: 30)
+                                
                         }
-                        HStack(spacing: 0) {
-                                Image(systemName: "flame")
-                                .resizable()
-                                .frame(width: 9.8, height: 11.2)
-                                .padding(.trailing, 6)
-                            
-                                Text("360 kcal")
-                                .font(.custom(FontManager.Satoshi.medium, size: 10))
-                                .padding(.trailing, 20)
-                            
-                                Image(systemName: "clock.fill")
-                                .resizable()
-                                .frame(width: 12, height: 12)
-                                .padding(.trailing, 6)
-                            
-                                Text("1h 25min" )
-                                .font(.custom(FontManager.Satoshi.medium, size: 10))
-                            
-                            Spacer()
-                        }
-                        .font(.system(size: 10, weight: .medium))
-                        .padding(.bottom, 16)
+                       
                 }
                     .foregroundColor(.white)
             }
@@ -117,5 +117,34 @@ struct DicoveryView: View {
 struct DicoveryView_Previews: PreviewProvider {
     static var previews: some View {
         DicoveryView()
+    }
+}
+
+struct PracticesHorizontalRow: View {
+    var body: some View {
+        HStack(spacing: 40) {
+            NavigationLink {
+                StrenghtView()
+            } label: {
+                SmallPracticeButtons(bgColor: Color.lighterGrayColor, image: "muscleMale", practice: "Stength")
+            }
+            NavigationLink {
+                StrenghtView()
+            } label: {
+                VStack {
+                    SmallPracticeButtons(bgColor: Color.lighterGrayColor, image: "swimmerMale", practice: "Endurance")
+                }
+            }
+            NavigationLink {
+                StrenghtView()
+            } label: {
+                SmallPracticeButtons(bgColor: Color.lighterGrayColor, image: "yogaMale", practice: "Cardio")
+            }
+            NavigationLink {
+                StrenghtView()
+            } label: {
+                SmallPracticeButtons(bgColor: Color.lighterGrayColor, image: "moreImage", practice: "More")
+            }
+        }
     }
 }
