@@ -61,10 +61,19 @@ struct TrainerProfileView: View {
                             ProfileActionButton(action: {}, text: "Chat", image: "bubble.left")
                             ProfileActionButton(action: {}, text: "Follow", image: "heart")
                         }.padding(.bottom, 20)
-                        
-                        trainerWorkoutList
-                        trainerWorkoutList
-                        trainerWorkoutList
+                        ForEach(1...6, id: \.self) { _ in
+                            
+                            NavigationLink {
+                                TrainerSessionView()
+                            } label: {
+                                trainerWorkoutList
+                            }
+
+                        }
+//                        trainerWorkoutList
+//                        trainerWorkoutList
+//                        trainerWorkoutList
+                        //TrainerSessionView()
                     }
                     .padding(.bottom)
                 }
@@ -94,19 +103,12 @@ struct TrainerProfileView: View {
                             .foregroundColor(Color.gray)
                     }
                     Spacer()
-                    
-                    Button(action: {
-                        showView.toggle()
-                    }, label: {
                         Circle()
                             .stroke(lineWidth: 9)
                             .fill(Color.buttonorange)
 
                             .frame(width: 35)
-                    })
-                    .fullScreenCover(isPresented: $showView) {
-                        TrainerSessionView()
-                    }                }
+                                 }
                 .padding(.leading, 12)
                 .padding(.trailing, 20)
             }

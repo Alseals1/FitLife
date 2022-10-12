@@ -2,7 +2,11 @@ import SwiftUI
 
 struct MyWorkoutsView: View {
     var body: some View {
-        Text("My Workouts")
+        VStack {
+            ExerciseView(image: "pushups", rating: "4.8", exercice: "Pushups", trainer: "Robert Fox")
+            ExerciseView(image: "pullups", rating: "5.0", exercice: "Pushups", trainer: "Diana Richards")
+            ExerciseView(image: "running", rating: "3.8", exercice: "Pushups", trainer: "Alandis Seals")
+        }
     }
 }
 

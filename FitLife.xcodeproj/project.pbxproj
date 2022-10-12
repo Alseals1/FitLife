@@ -64,6 +64,7 @@
 		C6D4841C28A2DA0800A5820E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4841B28A2DA0800A5820E /* HeaderView.swift */; };
 		C6D4842228A3245800A5820E /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4842128A3245800A5820E /* TabsView.swift */; };
 		C6D4842528A34C0100A5820E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4842428A34C0100A5820E /* SearchView.swift */; };
+		C6D9A9E928F74E54005F0E0A /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D9A9E828F74E54005F0E0A /* TitleRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,6 +127,7 @@
 		C6D4841B28A2DA0800A5820E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		C6D4842128A3245800A5820E /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		C6D4842428A34C0100A5820E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C6D9A9E828F74E54005F0E0A /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		C626221A2886290000FD74C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C6D9A9E728F74E32005F0E0A /* Chat */,
 				C663CAFB28861E280095187D /* ContentView.swift */,
 				C626221E2886350B00FD74C5 /* Onboarding */,
 				C6394C5128874D3000AA7768 /* Welcome */,
@@ -364,6 +367,14 @@
 			path = Search;
 			sourceTree = "<group>";
 		};
+		C6D9A9E728F74E32005F0E0A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				C6D9A9E828F74E54005F0E0A /* TitleRow.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -480,6 +491,7 @@
 				C69E6A2D2899996F0056F8A3 /* TrainerProfileView.swift in Sources */,
 				C6A230F7289452B6003BCE70 /* SmallButtonView.swift in Sources */,
 				C663CAFC28861E280095187D /* ContentView.swift in Sources */,
+				C6D9A9E928F74E54005F0E0A /* TitleRow.swift in Sources */,
 				C626222728864B8C00FD74C5 /* Verification.swift in Sources */,
 				C659F8D42892D13F00746DDB /* SelectionButton.swift in Sources */,
 				C6915D7B28983EBE0047DFD3 /* ReviewView.swift in Sources */,
