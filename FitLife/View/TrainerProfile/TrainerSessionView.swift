@@ -8,7 +8,7 @@ struct TrainerSessionView: View {
                         .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
                         .scaledToFit()
                         .ignoresSafeArea()
-                    
+            
                 VStack{
                     Spacer()
                     
@@ -20,6 +20,7 @@ struct TrainerSessionView: View {
                                 .font(.system(size: 11, weight: .bold))
                         }.clipShape(RoundedRectangle(cornerRadius: 13))
                             .frame(width: 81, height: 26)
+                        
                         Spacer()
                         
                         Button(action: {}, label: {
@@ -56,7 +57,6 @@ struct TrainerSessionView: View {
             }
         }
     }
-
 
 struct TrainerSessionView_Previews: PreviewProvider {
     static var previews: some View {

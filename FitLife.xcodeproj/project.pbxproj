@@ -59,6 +59,7 @@
 		C6A659DA28AE9114007FA704 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A659D928AE9113007FA704 /* SoundManager.swift */; };
 		C6A659DD28AE9138007FA704 /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6A659DC28AE9138007FA704 /* sound1.mp3 */; };
 		C6A659DF28AE93AE007FA704 /* SoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A659DE28AE93AE007FA704 /* SoundView.swift */; };
+		C6C127EF28F8948F00C062A3 /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C127EE28F8948F00C062A3 /* MessageField.swift */; };
 		C6C21FBC289062AB00D7AF40 /* GenderPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C21FBB289062AB00D7AF40 /* GenderPickView.swift */; };
 		C6CABB10288B297E0093F1CD /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CABB0F288B297E0093F1CD /* Birthday.swift */; };
 		C6D4841C28A2DA0800A5820E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4841B28A2DA0800A5820E /* HeaderView.swift */; };
@@ -125,6 +126,7 @@
 		C6A659D928AE9113007FA704 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		C6A659DC28AE9138007FA704 /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
 		C6A659DE28AE93AE007FA704 /* SoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundView.swift; sourceTree = "<group>"; };
+		C6C127EE28F8948F00C062A3 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 		C6C21FBB289062AB00D7AF40 /* GenderPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPickView.swift; sourceTree = "<group>"; };
 		C6CABB0F288B297E0093F1CD /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 		C6D4841B28A2DA0800A5820E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -150,8 +152,8 @@
 		C626221A2886290000FD74C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C6D9A9E728F74E32005F0E0A /* Chat */,
 				C663CAFB28861E280095187D /* ContentView.swift */,
+				C6D9A9E728F74E32005F0E0A /* Chat */,
 				C626221E2886350B00FD74C5 /* Onboarding */,
 				C6394C5128874D3000AA7768 /* Welcome */,
 				C6D4842128A3245800A5820E /* TabsView.swift */,
@@ -366,6 +368,16 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		C6C127F028F898BD00C062A3 /* ChatSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				C6D9A9EC28F769AD005F0E0A /* MessageBubble.swift */,
+				C6C127EE28F8948F00C062A3 /* MessageField.swift */,
+				C6D9A9E828F74E54005F0E0A /* TitleRow.swift */,
+			);
+			path = ChatSubViews;
+			sourceTree = "<group>";
+		};
 		C6D4842328A34BB800A5820E /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,9 +389,8 @@
 		C6D9A9E728F74E32005F0E0A /* Chat */ = {
 			isa = PBXGroup;
 			children = (
-				C6D9A9E828F74E54005F0E0A /* TitleRow.swift */,
 				C6D9A9EA28F76848005F0E0A /* MessageView.swift */,
-				C6D9A9EC28F769AD005F0E0A /* MessageBubble.swift */,
+				C6C127F028F898BD00C062A3 /* ChatSubViews */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -506,6 +517,7 @@
 				C6D9A9E928F74E54005F0E0A /* TitleRow.swift in Sources */,
 				C626222728864B8C00FD74C5 /* Verification.swift in Sources */,
 				C659F8D42892D13F00746DDB /* SelectionButton.swift in Sources */,
+				C6C127EF28F8948F00C062A3 /* MessageField.swift in Sources */,
 				C6915D7B28983EBE0047DFD3 /* ReviewView.swift in Sources */,
 				C6494A7B28AB09C0002FF97C /* FontManager.swift in Sources */,
 				C6D4842528A34C0100A5820E /* SearchView.swift in Sources */,

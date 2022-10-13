@@ -1,10 +1,3 @@
-//
-//  SigninButton.swift
-//  FitLife
-//
-//  Created by Alandis Seals on 8/1/22.
-//
-
 import SwiftUI
 
 struct SigninButton: View {
@@ -26,7 +19,6 @@ struct SigninButton: View {
             HStack {
                 Image(image)
                 Text(text)
-                
                     .foregroundColor(textColor)
             }
         })
@@ -42,4 +34,3 @@ struct SigninButton_Previews: PreviewProvider {
         SigninButton(action: {}, image: "google-icon", text: "Gmail", textColor: Color.blue, buttonColor: Color.buttongrey, radian: 10, shadowColor: Color.black, shadowRadius: 4, shadowX: 0, shadowY: 4)
     }
 }
-

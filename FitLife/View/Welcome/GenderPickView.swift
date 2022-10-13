@@ -16,11 +16,9 @@ struct GenderPickView: View {
 
                 HStack(spacing: 20) {
                     GenderPicker(action: {}, genderImage: "basicMaleAvatar", genderName: "Male")
-                    
                     GenderPicker(action: {}, genderImage: "basicFemaleAvatar", genderName: "Female")
                 }
             }
-            
             Spacer()
         
             NavigationLink(destination: {

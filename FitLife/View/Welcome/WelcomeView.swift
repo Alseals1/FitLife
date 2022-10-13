@@ -13,12 +13,10 @@ struct WelcomeView: View {
                         .padding(.horizontal, 35)
                         .padding(.bottom, 21)
                     
-                    
                     Text("Let us know your personal informations so we can help you building your Program better")
                         .font(.custom(FontManager.Inter.regular, size: 14))
                         .multilineTextAlignment(.center)
                         .padding(.horizontal, 44)
-                    
                     
                     NavigationLink(destination: {
                         AvatarSelection()

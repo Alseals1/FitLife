@@ -19,13 +19,13 @@ struct SoundView: View {
                     .offset(x: 200)
             }.padding(.bottom, 30)
             
-            
             HStack {
                 Button(action: {}, label: {
                     ZStack {
                         Circle()
                             .fill(.thinMaterial.opacity(0.5))
                             .frame(width: 48, height: 48)
+                        
                         Image(systemName: "backward")
                             .font(.system(size: 25))
                             .foregroundColor(Color.black)
@@ -40,33 +40,27 @@ struct SoundView: View {
                         sm.player?.pause()
                     }
                 }, label: {
-                    
                     ZStack {
                         Circle()
                             .fill(.white)
                             .frame(width: 48, height: 48)
+                        
                         Image(systemName: self.playing ? "pause.fill" : "play.fill")
                             .font(.system(size: 25))
                             .foregroundColor(Color.buttonorange)
                     }
-                            
-                    
-                        
                 })
-               
-                   
                 
                 Button(action: {}, label: {
-               
                     ZStack {
                         Circle()
                             .fill(.thinMaterial.opacity(0.5))
                             .frame(width: 48, height: 48)
+                        
                         Image(systemName: "forward")
                             .font(.system(size: 25))
                             .foregroundColor(Color.black)
                     }
-                    
                 })
             }
         }

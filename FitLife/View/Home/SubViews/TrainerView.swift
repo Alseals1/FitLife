@@ -63,7 +63,7 @@ struct TrainerView: View {
             }
         }
     }
-    @ViewBuilder
+
     var moreTrainer: some View {
         HStack {
             ZStack {
@@ -79,6 +79,7 @@ struct TrainerView: View {
                             .font(.system(size: 12, weight: .regular))
                             .foregroundColor(Color.gray)
                     }
+                    
                     Spacer()
                     
                     HStack {
@@ -98,12 +99,10 @@ struct TrainerView: View {
                     }
                     .clipShape(RoundedRectangle(cornerRadius: 12))
                     .frame(width: 58, height: 26)
-                   
                 }
                 .padding(.leading, 12)
                 .padding(.trailing, 20)
             }
-            
         }
         .frame(width: 335, height: 81)
         .cornerRadius(15)

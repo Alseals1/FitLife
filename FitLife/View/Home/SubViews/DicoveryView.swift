@@ -10,6 +10,7 @@ struct DicoveryView: View {
                     
                     Spacer()
                 }
+                
                 PracticesHorizontalRow()
                 
                 VStack {
@@ -41,7 +42,7 @@ struct DicoveryView: View {
             .padding(25)
         }
     }
-    @ViewBuilder
+    
     var trendingWorkoutView: some View {
         ZStack {
             Image("trendingImage")
@@ -70,6 +71,7 @@ struct DicoveryView: View {
                 .padding(.top, 20)
                
                 Spacer()
+                
                     VStack(spacing: 0) {
                         HStack {
                             VStack(alignment: .leading) {
@@ -101,9 +103,7 @@ struct DicoveryView: View {
                             Spacer()
                             ReviewView()
                                 .frame(width: 53, height: 30)
-                                
                         }
-                       
                 }
                     .foregroundColor(.white)
             }

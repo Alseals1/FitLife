@@ -1,10 +1,3 @@
-//
-//  CustomTab.swift
-//  FitLife
-//
-//  Created by Alandis Seals on 7/29/22.
-//
-
 import SwiftUI
 
 enum CustomTabSwitch: String {
@@ -26,16 +19,18 @@ struct CustomTab: View {
                     }, label: {
                         ZStack {
                             tab == currentTab ? Color.buttonorange : Color.buttongrey.opacity(0.1)
+                            
                             Text(tab.rawValue)
                                 .font(.custom(FontManager.Inter.regular, size: 12))
                                 .foregroundColor(tab == currentTab ? Color.white : Color.black)
                                 .padding(.horizontal)
                         }
                         .clipShape(RoundedRectangle(cornerRadius: 10))
-                           .frame(width: 110, height: 40 )
+                        .frame(width: 110, height: 40 )
                     })
                 }
             }
+            
             switch currentTab {
             case .discover:
                 DicoveryView()
@@ -43,9 +38,7 @@ struct CustomTab: View {
                 MyWorkoutsView()
             case .trainers:
                 TrainerView()
-                
             }
-            
         }
     }
 }

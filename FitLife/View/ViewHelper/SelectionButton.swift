@@ -11,6 +11,7 @@ struct SelectionButton: View {
             HStack {
                 ZStack {
                     isSelected ? Color.buttonorange : Color.buttongrey
+                    
                     Image(systemName: "checkmark")
                         .resizable()
                         .font(.system(size: 8))
@@ -19,6 +20,7 @@ struct SelectionButton: View {
                 }
                 .clipShape(Circle())
                 .frame(width: 20, height: 20)
+                
                 Text(goals)
                     .font(.custom(FontManager.Satoshi.light, size: 14))
                     .foregroundColor(.black)

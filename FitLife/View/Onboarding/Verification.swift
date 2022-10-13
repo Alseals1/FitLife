@@ -12,9 +12,7 @@ struct Verification: View {
                     .resizable()
                     .frame(width: 192,height: 192)
             }
-            
                 VStack(alignment: .center, spacing: 0) {
-                    
                         Text("Best app for building your \nfitness from home")
                             .font(.system(size: 20, weight: .bold))
                             .multilineTextAlignment(.center)
@@ -22,16 +20,12 @@ struct Verification: View {
                             .padding(.horizontal, 18)
                     
                     VStack(spacing: 14) {
-                        
                         SigninButton(action: {
                                 showSheet = true
                         }, image: "", text: "Continue with email", textColor: Color.white, buttonColor: Color.buttonorange, radian: 4, shadowColor: Color.black.opacity(0.6), shadowRadius: 4, shadowX: 0,shadowY: 4)
                             .fullScreenCover(isPresented: $showSheet) {
                                 WelcomeView()
                             }
-                               
-                        
-                            
                         
                         Text("You Can Sign In with: ")
                             .font(.system(size: 12, weight: .semibold))
@@ -44,7 +38,6 @@ struct Verification: View {
                     .padding(.top, 36)
                     .padding(.bottom, 67)
             }
-                
         }
     }
 }

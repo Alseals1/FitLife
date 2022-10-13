@@ -6,7 +6,6 @@ struct SmallPracticeButtons: View {
     let practice: String?
     
     var body: some View {
-
         VStack {
             ZStack {
                     bgColor
@@ -15,6 +14,7 @@ struct SmallPracticeButtons: View {
                         .frame(width: 31, height: 31)
                 }.clipShape(RoundedRectangle(cornerRadius: 10))
                 .frame(width: 49, height: 49)
+            
             Text(practice ?? "")
                 .font(.custom(FontManager.Inter.regular, size: 12))
                 .foregroundColor(.black)

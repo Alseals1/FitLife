@@ -1,10 +1,3 @@
-//
-//  ExerciseView.swift
-//  FitLife
-//
-//  Created by Alandis Seals on 10/11/22.
-//
-
 import SwiftUI
 
 struct ExerciseView: View {
@@ -25,7 +18,7 @@ struct ExerciseView: View {
                     .cornerRadius(10)
                 
                 VStack(alignment: .leading) {
-                   review()
+                    review()
                         .frame(width: 40, height: 16)
                     
                     VStack(alignment: .leading, spacing: 4) {
@@ -41,19 +34,17 @@ struct ExerciseView: View {
         }
         .clipShape(RoundedRectangle(cornerRadius: 15))
         .frame(maxWidth: .infinity, maxHeight: 92)
-
-       
-       
-
     }
+    
     private func review() -> some View {
         ZStack {
             Color.reviewBackgroundColor.opacity(0.4)
+            
             HStack(spacing: 3) {
                 Image(systemName: "star.fill")
                     .resizable()
                     .foregroundColor(Color.reviewBackgroundColor)
-                .frame(width: 9, height: 9)
+                    .frame(width: 9, height: 9)
                 
                 Text(rating)
                     .font(.system(size: 10))
@@ -65,8 +56,7 @@ struct ExerciseView: View {
 
 struct ExerciseView_Previews: PreviewProvider {
     static var previews: some View {
- 
         ExerciseView(image: "trendingImage2", rating: "4.8", exercice: "Pull Ups", trainer: "Robert fox")
-         
+        
     }
 }

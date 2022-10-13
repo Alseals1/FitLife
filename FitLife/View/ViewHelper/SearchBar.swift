@@ -10,6 +10,7 @@ import SwiftUI
 struct SearchBar: View {
     @Binding var searchText: String
     var text: String
+    
     var body: some View {
         HStack(spacing: 16) {
            Image(systemName: "magnifyingglass")

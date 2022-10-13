@@ -9,6 +9,7 @@ struct ReviewView: View {
                     .resizable()
                     .foregroundColor(Color.reviewBackgroundColor)
                     .frame(width: 12, height: 12)
+                
                 Text("4.8")
                     .font(.system(size: 12, weight: .medium))
             }

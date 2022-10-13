@@ -24,7 +24,6 @@ struct BodyMeasurementView: View {
             }
             .padding(.top, 104)
             .padding(.bottom, 18)
-        
                 
             VStack(alignment: .center) {
                     TextField("Your Weight", text: $weight)
@@ -38,8 +37,6 @@ struct BodyMeasurementView: View {
                         .padding(.vertical, 19)
                         .background(Color.secondaryBaseColor)
                         .cornerRadius(8)
-                      
-                
             }
             Spacer()
             NavigationLink(destination: {
@@ -54,8 +51,6 @@ struct BodyMeasurementView: View {
                 .padding(.top, 57)
         }
         .padding(.horizontal, 25)
-        
-  
     }
 }
 

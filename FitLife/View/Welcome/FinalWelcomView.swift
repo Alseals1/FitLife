@@ -25,11 +25,8 @@ struct FinalWelcomView: View {
                         .font(.system(size: 33, weight: .bold))
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)
-                        
-                       
                     
                     Spacer()
-                    
                     
                     Button(action: {
                         showView.toggle()
@@ -43,9 +40,7 @@ struct FinalWelcomView: View {
                     .background(RoundedRectangle(cornerRadius: 10).fill(Color.white))
                     .fullScreenCover(isPresented: $showView, content: {
                         TabsView()
-                    
                                     })
-                    
                 }
             }
             .padding(.top, 78)

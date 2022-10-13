@@ -7,11 +7,13 @@ struct SearchView: View {
     var body: some View {
         VStack {
             SearchBar(searchText: $searchText, text: "Search Exercise")
+            
         ScrollView {
                 HStack {
                     VStack(alignment: .leading, spacing: 16) {
                         Text("Recent Search")
                             .font(.system(size: 14, weight: .medium))
+                        
                         ForEach(recentSearch, id: \.self) { text in
                             HStack {
                                 Image(systemName: "clock")

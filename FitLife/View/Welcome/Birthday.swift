@@ -10,11 +10,9 @@ import SwiftUI
 struct Birthday: View {
     var body: some View {
         VStack {
-            
             HeaderView(title: "What is your birthday?", description: "Don’t worry, your birthdate is kept private and never sent , used or sold to any 3rd party app") {
                 VStack {
                     // MARK: Date Picker goes here
-                     
                      Spacer()
                      NavigationLink(destination: {
                          GenderPickView()
@@ -28,11 +26,7 @@ struct Birthday: View {
                          .padding(.top, 57)
                 }
             }
-            
-            
-         
         }
-        
     }
 }
 

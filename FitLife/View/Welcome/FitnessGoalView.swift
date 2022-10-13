@@ -16,6 +16,7 @@ struct FitnessGoalView: View {
                     }
                 }
                 .padding(.top, 47)
+                
                 Spacer()
                 
                 Button(action: {

@@ -26,12 +26,11 @@ struct HeaderView<Content: View>: View {
                 }
             }
             .padding(EdgeInsets(top: 111,
-                                        leading: 25,
-                                        bottom: 63,
-                                        trailing: 44))
-                
-                content
-           
+                                leading: 25,
+                                bottom: 63,
+                                trailing: 44))
+            
+            content
         }
     }
 }

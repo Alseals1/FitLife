@@ -4,21 +4,26 @@ struct HomeView: View {
     var body: some View {
         VStack {
             HStack{
-                Text("Good \nMorning")
+                Text("Good \nEvening")
                     .font(.custom(FontManager.Satoshi.bold, size: 39))
                 Spacer()
                 
                 HStack {
-                    SmallButtonView(action: {}, image: "magnifyingglass")
-                    SmallButtonView(action: {}, image: "line.3.horizontal.decrease")
+                    NavigationLink {
+                        SearchView()
+                    } label: {
+                        SmallButtonView(image: "magnifyingglass")
+                    }
+                    
+                    SmallButtonView(image: "line.3.horizontal.decrease")
                 }
                 .offset(y: -10)
             }
            
             CustomTab(tabs: [.discover, .trainers, .myWorkout])
                 .padding(.top, 24)
-            
             Spacer()
+            
         }
         .padding(25)
     }

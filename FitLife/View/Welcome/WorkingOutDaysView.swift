@@ -11,9 +11,7 @@ struct WorkingOutDaysView: View {
                     HStack(spacing: 40) {
                         Text("1")
                         Text("2")
-                        
                         daySelecter
-                        
                         Text("4")
                         Text("5")
                     }
@@ -24,6 +22,7 @@ struct WorkingOutDaysView: View {
                 .padding(.top, 82)
                 
                 Spacer()
+                
                 NavigationLink(destination: {
                     FitnessGoalView()
                 }, label: {
@@ -38,7 +37,6 @@ struct WorkingOutDaysView: View {
         }
     }
     
-    @ViewBuilder
     var daySelecter: some View {
         ZStack {
             Color.buttonorange

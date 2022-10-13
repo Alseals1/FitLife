@@ -1,25 +1,22 @@
-//
-//  MessageView.swift
-//  FitLife
-//
-//  Created by Alandis Seals on 10/12/22.
-//
-
 import SwiftUI
 
 struct MessageView: View {
     var body: some View {
         VStack {
-            TitleRow()
-            ScrollView {
-                ForEach(messages) { text in
-                    MessageBubble(message: text)
-                        .padding(5)
+            VStack {
+                TitleRow()
+                ScrollView {
+                    ForEach(messages) { text in
+                        MessageBubble(message: text)
+                    }
                 }
+                .padding(.top, 5)
+                .background(.white)
             }
-            .background(.white)
+            .background(Color.buttonorange)
+            
+            MessageField()
         }
-        .background(Color.buttonorange)
     }
 }
 

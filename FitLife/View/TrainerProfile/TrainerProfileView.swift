@@ -12,6 +12,7 @@ struct TrainerProfileView: View {
                         .frame(width: 441, height: 460)
                 }
                 .edgesIgnoringSafeArea(.all)
+                
                 VStack(spacing: 0) {
                     trainerInformationView
                         .padding(.horizontal,25)
@@ -22,14 +23,16 @@ struct TrainerProfileView: View {
         .padding(.top, -15)
     }
     
-    @ViewBuilder
     var trainerInformationView: some View {
         ZStack(alignment: .top) {
             VStack {
                 Spacer()
+                
                 VStack( spacing: 20){
                     HStack(alignment: .center) {
+                        
                         Spacer()
+                        
                         ZStack{
                             Color.buttonorange
                             Text("Certified")
@@ -37,6 +40,7 @@ struct TrainerProfileView: View {
                                 .font(.system(size: 11, weight: .bold))
                         }.clipShape(RoundedRectangle(cornerRadius: 13))
                             .frame(width: 81, height: 26)
+                        
                         Spacer()
                     }
                     .padding()
@@ -44,14 +48,18 @@ struct TrainerProfileView: View {
                     VStack{
                         Text("Alex Costa")
                             .font(.system(size: 32, weight: .bold))
+                        
                         HStack(spacing: 24) {
                             HStack(spacing: 5) {
                                 Image(systemName: "star.fill")
                                     .resizable()
                                     .frame(width: 14, height: 14)
+                                
                                 Text("4.8")
                             }
+                            
                             Text("|")
+                            
                             HStack(spacing: 5) {
                                 Text("1200 Reviews")
                             }
@@ -59,7 +67,6 @@ struct TrainerProfileView: View {
                         ContactActionButtons()
                         
                         ForEach(1...6, id: \.self) { _ in
-                            
                             NavigationLink {
                                 TrainerSessionView()
                             } label: {
@@ -73,19 +80,20 @@ struct TrainerProfileView: View {
             .ignoresSafeArea()
         }
         .frame(minWidth: UIScreen.main.bounds.width ,maxWidth: .infinity, alignment: .leading)
-            .foregroundColor(Color.black)
-            .background(.white)
-            .cornerRadius(37, corners: [.topLeft, .topRight])
+        .foregroundColor(Color.black)
+        .background(.white)
+        .cornerRadius(37, corners: [.topLeft, .topRight])
     }
     
-    @ViewBuilder
     var trainerWorkoutList: some View {
         HStack {
             ZStack {
                 Color.lighterGrayColor
+                
                 HStack {
                     Image("trainerImage")
                         .clipShape(Circle())
+                    
                     VStack(alignment: .leading, spacing: 4){
                         Text("The Batman")
                             .font(.custom(FontManager.Inter.bold, size: 14))
@@ -94,13 +102,14 @@ struct TrainerProfileView: View {
                             .font(.system(size: 12, weight: .regular))
                             .foregroundColor(Color.gray)
                     }
+                    
                     Spacer()
-                        Circle()
-                            .stroke(lineWidth: 9)
-                            .fill(Color.buttonorange)
-
-                            .frame(width: 35)
-                                 }
+                    
+                    Circle()
+                        .stroke(lineWidth: 9)
+                        .fill(Color.buttonorange)
+                        .frame(width: 35)
+                }
                 .padding(.leading, 12)
                 .padding(.trailing, 20)
             }
@@ -124,11 +133,13 @@ struct ContactActionButtons: View {
             } label: {
                 ProfileActionButton(text: "Call", image: "phone")
             }
+            
             NavigationLink {
                 MessageView()
             } label: {
                 ProfileActionButton(text: "Chat", image: "bubble.left")
             }
+            
             ProfileActionButton(text: "Follow", image: "heart")
         }.padding(.bottom, 20)
     }

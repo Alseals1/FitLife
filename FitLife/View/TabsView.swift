@@ -10,7 +10,6 @@ struct TabsView: View {
                     .tabItem {
                         Image(systemName: "house")
                         Text("Home")
-                            
                     }.tag(0)
                 
                 SearchView()
@@ -34,7 +33,6 @@ struct TabsView: View {
             .accentColor(.buttonorange)
         .tabViewStyle(.automatic)
         }
-       
     }
 }
 
