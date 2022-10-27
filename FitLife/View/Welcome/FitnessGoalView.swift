@@ -11,8 +11,17 @@ struct FitnessGoalView: View {
         VStack {
             HeaderView(title: "Let us know your fitness goals", description: nil) {
                 VStack(alignment: .leading, spacing: 32) {
-                    ForEach(fitnessGoals.indices, id: \.self) { goal in
-                        SelectionButton(isSelected: $isSelected, goals: fitnessGoals[goal])
+                    ForEach(fitnessGoals, id: \.self) { goal in
+                        HStack {
+                            SelectionButton(isSelected: $isSelected)
+                            Text(goal)
+                                .font(.custom(FontManager.Satoshi.light, size: 14))
+                                .padding(.leading, 20)
+                        }
+                                .onTapGesture {
+                                    isSelected.toggle()
+                            }
+                        
                     }
                 }
                 .padding(.top, 47)

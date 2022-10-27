@@ -19,6 +19,7 @@ struct GenderPickView: View {
                     GenderPicker(action: {}, genderImage: "basicFemaleAvatar", genderName: "Female")
                 }
             }
+            
             Spacer()
         
             NavigationLink(destination: {

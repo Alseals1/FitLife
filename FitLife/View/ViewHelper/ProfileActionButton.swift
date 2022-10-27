@@ -5,7 +5,8 @@ struct ProfileActionButton: View {
     let image: String
     var body: some View {
         ZStack {
-            Color.buttongrey.opacity(0.1)
+            Color.buttongrey
+               
             HStack {
                 Image(systemName: image)
                     .foregroundColor(.orange)

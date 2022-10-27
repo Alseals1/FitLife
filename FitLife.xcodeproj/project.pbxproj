@@ -22,6 +22,8 @@
 		C63CBA8628AC91CC00C92273 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63CBA8528AC91CB00C92273 /* Inter-Regular.ttf */; };
 		C63CBA8828AC92F600C92273 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63CBA8728AC92F600C92273 /* Inter-Bold.ttf */; };
 		C63CBA8B28AD084E00C92273 /* TrainerSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63CBA8A28AD084E00C92273 /* TrainerSessionView.swift */; };
+		C64315A02909E7D2008DBF9C /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C643159F2909E7D2008DBF9C /* Trainer.swift */; };
+		C64315A32909EBB0008DBF9C /* TrainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64315A22909EBB0008DBF9C /* TrainerViewModel.swift */; };
 		C6494A7B28AB09C0002FF97C /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6494A7A28AB09C0002FF97C /* FontManager.swift */; };
 		C6494A8628AB0A0B002FF97C /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A7C28AB0A0B002FF97C /* Satoshi-Black.otf */; };
 		C6494A8728AB0A0B002FF97C /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6494A7D28AB0A0B002FF97C /* Satoshi-Regular.otf */; };
@@ -87,6 +89,8 @@
 		C63CBA8528AC91CB00C92273 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		C63CBA8728AC92F600C92273 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
 		C63CBA8A28AD084E00C92273 /* TrainerSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerSessionView.swift; sourceTree = "<group>"; };
+		C643159F2909E7D2008DBF9C /* Trainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
+		C64315A22909EBB0008DBF9C /* TrainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerViewModel.swift; sourceTree = "<group>"; };
 		C6494A7A28AB09C0002FF97C /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		C6494A7C28AB0A0B002FF97C /* Satoshi-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.otf"; sourceTree = "<group>"; };
 		C6494A7D28AB0A0B002FF97C /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
@@ -237,6 +241,15 @@
 			path = TrainerProfile;
 			sourceTree = "<group>";
 		};
+		C64315A12909EB7B008DBF9C /* Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				C623CB5B2897FA9900A0FD0B /* TrainerView.swift */,
+				C64315A22909EBB0008DBF9C /* TrainerViewModel.swift */,
+			);
+			path = Trainer;
+			sourceTree = "<group>";
+		};
 		C6494A7928AB098F002FF97C /* CustomFonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,9 +308,9 @@
 			children = (
 				C6494A9028AB0B41002FF97C /* Info.plist */,
 				C694E1E7289ADF5200FF2D06 /* Utils */,
+				C6262228288650C000FD74C5 /* Extensions */,
 				C626221B2886291000FD74C5 /* App */,
 				C6A230F8289457AC003BCE70 /* Models */,
-				C6262228288650C000FD74C5 /* Extensions */,
 				C626221A2886290000FD74C5 /* View */,
 				C663CAFD28861E2C0095187D /* Assets.xcassets */,
 				C663CAFF28861E2C0095187D /* Preview Content */,
@@ -336,6 +349,7 @@
 			isa = PBXGroup;
 			children = (
 				C6D9A9EE28F769D2005F0E0A /* Message.swift */,
+				C643159F2909E7D2008DBF9C /* Trainer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -343,8 +357,8 @@
 		C6A230FB28945CF4003BCE70 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				C64315A12909EB7B008DBF9C /* Trainer */,
 				C6A230FC28945D20003BCE70 /* DicoveryView.swift */,
-				C623CB5B2897FA9900A0FD0B /* TrainerView.swift */,
 				C623CB5D2897FACC00A0FD0B /* MyWorkoutsView.swift */,
 				C656DF4728F5DFEE007FE7EE /* PracticesViews */,
 			);
@@ -480,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64315A02909E7D2008DBF9C /* Trainer.swift in Sources */,
 				C64A410228AFE60B0007D390 /* SearchBar.swift in Sources */,
 				C6A230FA289457E4003BCE70 /* CustomTab.swift in Sources */,
 				C6394C5328874D7F00AA7768 /* AvatarSelection.swift in Sources */,
@@ -512,6 +527,7 @@
 				C62622202886355000FD74C5 /* OnboardingCard.swift in Sources */,
 				C6A230F1289451AD003BCE70 /* HomeView.swift in Sources */,
 				C69E6A2D2899996F0056F8A3 /* TrainerProfileView.swift in Sources */,
+				C64315A32909EBB0008DBF9C /* TrainerViewModel.swift in Sources */,
 				C6A230F7289452B6003BCE70 /* SmallButtonView.swift in Sources */,
 				C663CAFC28861E280095187D /* ContentView.swift in Sources */,
 				C6D9A9E928F74E54005F0E0A /* TitleRow.swift in Sources */,

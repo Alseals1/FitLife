@@ -18,7 +18,7 @@ struct CustomTab: View {
                         currentTab = tab
                     }, label: {
                         ZStack {
-                            tab == currentTab ? Color.buttonorange : Color.buttongrey.opacity(0.1)
+                            tab == currentTab ? Color.buttonorange : Color.buttongrey
                             
                             Text(tab.rawValue)
                                 .font(.custom(FontManager.Inter.regular, size: 12))

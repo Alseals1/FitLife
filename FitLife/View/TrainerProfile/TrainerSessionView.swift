@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct TrainerSessionView: View {
+    
     var body: some View {
         ZStack {
                     Image("yogaTrainer")

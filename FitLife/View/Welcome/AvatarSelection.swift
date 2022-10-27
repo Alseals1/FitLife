@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct AvatarSelection: View {
+    let avatars: [String] = ["avatar1", "avatar3", "avatar2"]
     
     var body: some View {
         VStack {
@@ -25,9 +26,7 @@ struct AvatarSelection: View {
         }
     }
     
-    @ViewBuilder
    private var avatar: some View {
-       let avatars: [String] = ["avatar1", "avatar3", "avatar2"]
         VStack {
             HStack(spacing: 25) {
                 ForEach(avatars, id: \.self) { avatar in

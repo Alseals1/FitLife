@@ -12,7 +12,6 @@ struct OnboardingCard: View {
     var image: String
     var description: String
     
-    
     var body: some View {
         VStack {
             VStack {
@@ -24,15 +23,12 @@ struct OnboardingCard: View {
                         .font(.custom(FontManager.Satoshi.bold, size: 35))
                         .multilineTextAlignment(.center)
                         .padding(.top, 86)
-                       
-                    
                     
                     Text(description)
                         .font(.custom(FontManager.Poppins.regular, size: 12))
                         .foregroundColor(Color.subtitleTextColor)
                         .multilineTextAlignment(.center)
                         .padding(.top, 17)
-                        
                 }
                 .padding(.horizontal, 25)
             }

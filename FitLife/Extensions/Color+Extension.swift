@@ -10,4 +10,5 @@ extension Color {
     static let subtitleTextColor = Color("subtitleTextColor")
     static let lighterGrayColor = Color("lighterGrayColor")
     static let reviewBackgroundColor = Color("reviewBackgroundColor")
+    static let lightDarkMode = Color("lightDarkMode")
 }

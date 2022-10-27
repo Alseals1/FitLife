@@ -134,6 +134,7 @@ struct PracticesHorizontalRow: View {
                 VStack {
                     SmallPracticeButtons(bgColor: Color.lighterGrayColor, image: "swimmerMale", practice: "Endurance")
                 }
+                .frame(minWidth: 70)
             }
             NavigationLink {
                 StrenghtView()

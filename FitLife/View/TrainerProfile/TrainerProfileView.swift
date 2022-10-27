@@ -1,12 +1,13 @@
 import SwiftUI
 
 struct TrainerProfileView: View {
+    @ObservedObject var vm = TrainerViewModel()
     @State var showView: Bool = false
     var body: some View {
         ScrollView {
             VStack {
                 ZStack(alignment: .bottom) {
-                    Image("trainerProfileImage")
+                    Image("profileImage")
                         .resizable()
                         .scaledToFill()
                         .frame(width: 441, height: 460)
@@ -25,12 +26,11 @@ struct TrainerProfileView: View {
     
     var trainerInformationView: some View {
         ZStack(alignment: .top) {
+            Color.lightDarkMode
             VStack {
                 Spacer()
-                
                 VStack( spacing: 20){
                     HStack(alignment: .center) {
-                        
                         Spacer()
                         
                         ZStack{
@@ -65,13 +65,10 @@ struct TrainerProfileView: View {
                             }
                         }
                         ContactActionButtons()
-                        
-                        ForEach(1...6, id: \.self) { _ in
                             NavigationLink {
                                 TrainerSessionView()
                             } label: {
                                 trainerWorkoutList
-                            }
                         }
                     }
                     .padding(.bottom)
@@ -86,36 +83,53 @@ struct TrainerProfileView: View {
     }
     
     var trainerWorkoutList: some View {
-        HStack {
-            ZStack {
-                Color.lighterGrayColor
-                
-                HStack {
-                    Image("trainerImage")
-                        .clipShape(Circle())
-                    
-                    VStack(alignment: .leading, spacing: 4){
-                        Text("The Batman")
-                            .font(.custom(FontManager.Inter.bold, size: 14))
+        VStack {
+            ForEach(vm.trainer) { trainer in
+                VStack {
+                    ZStack {
+                        Color.lighterGrayColor
                         
-                        Text("Pro Trainer")
-                            .font(.system(size: 12, weight: .regular))
-                            .foregroundColor(Color.gray)
+                        HStack {
+                            AsyncImage(url: URL(string: trainer.image)) { image in
+                               image
+                                   .resizable()
+                                   .scaledToFill()
+                                   .frame(width: 75, height: 75)
+                                   .clipShape(Circle())
+                                   
+                           } placeholder: {
+                               ProgressView()
+                           }
+                            
+                            VStack(alignment: .leading, spacing: 4){
+                                HStack(spacing: 0) {
+                                    Text(trainer.firstName)
+                                        .font(.custom(FontManager.Inter.bold, size: 7))
+                                    Text(trainer.lastName)
+                                        .font(.system(size: 14, weight: .ultraLight))
+                                }
+                                
+                                Text("Pro Trainer")
+                                    .font(.system(size: 12, weight: .regular))
+                                    .foregroundColor(Color.gray)
+                            }
+                            
+                            Spacer()
+                            
+                            Circle()
+                                .stroke(lineWidth: 9)
+                                .fill(Color.buttonorange)
+                                .frame(width: 35)
+                        }
+                        .padding(.leading, 12)
+                        .padding(.trailing, 20)
                     }
-                    
-                    Spacer()
-                    
-                    Circle()
-                        .stroke(lineWidth: 9)
-                        .fill(Color.buttonorange)
-                        .frame(width: 35)
                 }
-                .padding(.leading, 12)
-                .padding(.trailing, 20)
+                .frame(width: 335, height: 81)
+                .cornerRadius(15)
             }
         }
-        .frame(width: 335, height: 81)
-        .cornerRadius(15)
+        
     }
 }
 
