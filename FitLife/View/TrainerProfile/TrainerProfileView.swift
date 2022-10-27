@@ -98,7 +98,11 @@ struct TrainerProfileView: View {
                                    .clipShape(Circle())
                                    
                            } placeholder: {
-                               ProgressView()
+                               Image("fitlife-logo")
+                                   .resizable()
+                                   .scaledToFill()
+                                   .frame(width: 20, height: 20)
+                                   .clipShape(Circle())
                            }
                             
                             VStack(alignment: .leading, spacing: 4){

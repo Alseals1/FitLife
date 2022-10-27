@@ -45,6 +45,7 @@
 		C659F8D42892D13F00746DDB /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C659F8D32892D13F00746DDB /* SelectionButton.swift */; };
 		C659F8D82892D34400746DDB /* FitnessGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C659F8D72892D34400746DDB /* FitnessGoalView.swift */; };
 		C65B68FE28930D2600F98FB0 /* FinalWelcomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65B68FD28930D2600F98FB0 /* FinalWelcomView.swift */; };
+		C661058C290AD4B400410927 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C661058B290AD4B400410927 /* HomeViewModel.swift */; };
 		C663CAFA28861E280095187D /* FitLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663CAF928861E280095187D /* FitLifeApp.swift */; };
 		C663CAFC28861E280095187D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C663CAFB28861E280095187D /* ContentView.swift */; };
 		C663CAFE28861E2C0095187D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C663CAFD28861E2C0095187D /* Assets.xcassets */; };
@@ -113,6 +114,7 @@
 		C659F8D32892D13F00746DDB /* SelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
 		C659F8D72892D34400746DDB /* FitnessGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessGoalView.swift; sourceTree = "<group>"; };
 		C65B68FD28930D2600F98FB0 /* FinalWelcomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalWelcomView.swift; sourceTree = "<group>"; };
+		C661058B290AD4B400410927 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		C663CAF628861E280095187D /* FitLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C663CAF928861E280095187D /* FitLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitLifeApp.swift; sourceTree = "<group>"; };
 		C663CAFB28861E280095187D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -340,6 +342,7 @@
 			isa = PBXGroup;
 			children = (
 				C6A230F0289451AD003BCE70 /* HomeView.swift */,
+				C661058B290AD4B400410927 /* HomeViewModel.swift */,
 				C6A230FB28945CF4003BCE70 /* SubViews */,
 			);
 			path = Home;
@@ -513,6 +516,7 @@
 				C623CB5E2897FACC00A0FD0B /* MyWorkoutsView.swift in Sources */,
 				C623CB5C2897FA9900A0FD0B /* TrainerView.swift in Sources */,
 				C6D9A9EF28F769D2005F0E0A /* Message.swift in Sources */,
+				C661058C290AD4B400410927 /* HomeViewModel.swift in Sources */,
 				C64DFD452890724000A09E84 /* GenderPicker.swift in Sources */,
 				C64A410928AFFC2A0007D390 /* RoundedCorners.swift in Sources */,
 				C6A659DF28AE93AE007FA704 /* SoundView.swift in Sources */,
