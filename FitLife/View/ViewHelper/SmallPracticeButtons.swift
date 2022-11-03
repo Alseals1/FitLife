@@ -8,7 +8,7 @@ struct SmallPracticeButtons: View {
     var body: some View {
         VStack {
             ZStack {
-                    bgColor
+                Color.lighterGrayColor
                     Image(image)
                         .resizable()
                         .frame(width: 31, height: 31)

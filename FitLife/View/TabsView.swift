@@ -14,19 +14,19 @@ struct TabsView: View {
                 
                 SearchView()
                     .tabItem {
-                        Image("search")
+                        Image(systemName: "magnifyingglass")
                         Text("Search")
                     }.tag(1)
                 
                BlogView()
                     .tabItem {
-                        Image("document-text")
+                        Image(systemName: "doc.text")
                         Text("Article")
                     }.tag(2)
                 
               TrainerProfileView()
                     .tabItem {
-                        Image("user")
+                        Image(systemName: "person")
                         Text("Profile")
                     }.tag(3)
             }

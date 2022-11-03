@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C612AC03291407A7006A04A6 /* fitlife.json in Resources */ = {isa = PBXBuildFile; fileRef = C612AC02291407A7006A04A6 /* fitlife.json */; };
 		C623CB5A2897EF6300A0FD0B /* SigninButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623CB592897EF6300A0FD0B /* SigninButton.swift */; };
 		C623CB5C2897FA9900A0FD0B /* TrainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623CB5B2897FA9900A0FD0B /* TrainerView.swift */; };
 		C623CB5E2897FACC00A0FD0B /* MyWorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623CB5D2897FACC00A0FD0B /* MyWorkoutsView.swift */; };
@@ -75,6 +76,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C612AC02291407A7006A04A6 /* fitlife.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fitlife.json; sourceTree = "<group>"; };
 		C623CB592897EF6300A0FD0B /* SigninButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninButton.swift; sourceTree = "<group>"; };
 		C623CB5B2897FA9900A0FD0B /* TrainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerView.swift; sourceTree = "<group>"; };
 		C623CB5D2897FACC00A0FD0B /* MyWorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkoutsView.swift; sourceTree = "<group>"; };
@@ -315,6 +317,7 @@
 				C6A230F8289457AC003BCE70 /* Models */,
 				C626221A2886290000FD74C5 /* View */,
 				C663CAFD28861E2C0095187D /* Assets.xcassets */,
+				C612AC02291407A7006A04A6 /* fitlife.json */,
 				C663CAFF28861E2C0095187D /* Preview Content */,
 			);
 			path = FitLife;
@@ -360,8 +363,8 @@
 		C6A230FB28945CF4003BCE70 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
-				C64315A12909EB7B008DBF9C /* Trainer */,
 				C6A230FC28945D20003BCE70 /* DicoveryView.swift */,
+				C64315A12909EB7B008DBF9C /* Trainer */,
 				C623CB5D2897FACC00A0FD0B /* MyWorkoutsView.swift */,
 				C656DF4728F5DFEE007FE7EE /* PracticesViews */,
 			);
@@ -483,6 +486,7 @@
 				C6A659DD28AE9138007FA704 /* sound1.mp3 in Resources */,
 				C63CBA8828AC92F600C92273 /* Inter-Bold.ttf in Resources */,
 				C63CBA8428AC847B00C92273 /* Poppins-Regular.ttf in Resources */,
+				C612AC03291407A7006A04A6 /* fitlife.json in Resources */,
 				C6494A8A28AB0A0B002FF97C /* Satoshi-MediumItalic.otf in Resources */,
 				C663CAFE28861E2C0095187D /* Assets.xcassets in Resources */,
 				C6494A8E28AB0A0B002FF97C /* Satoshi-Italic.otf in Resources */,

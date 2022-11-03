@@ -4,32 +4,23 @@ class TrainerViewModel: ObservableObject {
     @Published var trainer: [Trainer] = []
     
     init() {
-        print("Returning Data")
-        getTrainer { returnTrainer in
-            self.trainer = returnTrainer
-        }
+        loadJsonFile()
     }
     
-    func getTrainer(completion: @escaping ([Trainer]) -> ()) {
-        guard let url = URL(string: "http://localhost:3002/api/trainers") else { return }
-        
-        URLSession.shared.dataTask(with: url) { data, response, error in
-            guard let response = response as? HTTPURLResponse,
-                  response.statusCode >= 200 && response.statusCode < 300 else { return }
-                  guard let data = data else { return }
-            print(data)
-            
-                do{
-                    let returnData = try JSONDecoder().decode([Trainer].self, from: data)
-                    DispatchQueue.main.async {
-                        print(returnData)
-                        completion(returnData)
-                    }
-                }catch{
-                    print("🚨ERROR: 🚫 \(error.localizedDescription)")
+    
+    //-------->Local JSON File<------------
+    func loadJsonFile() {
+        if let fileLocation = Bundle.main.url(forResource: "fitlife", withExtension: "json") {
+            do{
+                let data = try Data(contentsOf: fileLocation)
+                let returnData = try JSONDecoder().decode([Trainer].self, from: data)
+                self.trainer = returnData
+            }catch{
+                print(error)
             }
-        }.resume()
+        }
     }
 }
+
 
 

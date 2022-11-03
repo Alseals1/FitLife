@@ -96,7 +96,6 @@ struct TrainerProfileView: View {
                                    .scaledToFill()
                                    .frame(width: 75, height: 75)
                                    .clipShape(Circle())
-                                   
                            } placeholder: {
                                Image("fitlife-logo")
                                    .resizable()

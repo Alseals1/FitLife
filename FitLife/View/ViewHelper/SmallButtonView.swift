@@ -5,7 +5,7 @@ struct SmallButtonView: View {
     
     var body: some View {
         ZStack {
-            Color.buttongrey.opacity(0.1)
+            Color.buttongrey
             Image(systemName: image)
                 .foregroundColor(.black)
                 .frame(width: 17.2, height: 17.31)
