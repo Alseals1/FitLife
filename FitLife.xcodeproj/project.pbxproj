@@ -34,6 +34,8 @@
 		C6ED68E12953F43B003DB112 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED68E02953F43B003DB112 /* GoalView.swift */; };
 		C6ED68E32954B4A6003DB112 /* RecomendedWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED68E22954B4A6003DB112 /* RecomendedWorkoutView.swift */; };
 		C6ED68E52954B580003DB112 /* MostViewMeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED68E42954B580003DB112 /* MostViewMeals.swift */; };
+		C6ED68E82954B979003DB112 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED68E72954B979003DB112 /* NutritionView.swift */; };
+		C6ED68EA2954DA69003DB112 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ED68E92954DA69003DB112 /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		C6ED68E02953F43B003DB112 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
 		C6ED68E22954B4A6003DB112 /* RecomendedWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendedWorkoutView.swift; sourceTree = "<group>"; };
 		C6ED68E42954B580003DB112 /* MostViewMeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViewMeals.swift; sourceTree = "<group>"; };
+		C6ED68E72954B979003DB112 /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		C6ED68E92954DA69003DB112 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +191,7 @@
 			children = (
 				C6ED68DA2953EC34003DB112 /* ActivityTab.swift */,
 				C6ED68DF2953F422003DB112 /* Discovery */,
+				C6ED68E62954B959003DB112 /* Nutrition */,
 			);
 			path = ActivityTabs;
 			sourceTree = "<group>";
@@ -200,6 +205,15 @@
 				C6ED68E42954B580003DB112 /* MostViewMeals.swift */,
 			);
 			path = Discovery;
+			sourceTree = "<group>";
+		};
+		C6ED68E62954B959003DB112 /* Nutrition */ = {
+			isa = PBXGroup;
+			children = (
+				C6ED68E72954B979003DB112 /* NutritionView.swift */,
+				C6ED68E92954DA69003DB112 /* SearchBarView.swift */,
+			);
+			path = Nutrition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,10 +305,12 @@
 				C6ED68DB2953EC34003DB112 /* ActivityTab.swift in Sources */,
 				C64A410928AFFC2A0007D390 /* RoundedCorners.swift in Sources */,
 				C6ED68DE2953EE9D003DB112 /* DiscoveryView.swift in Sources */,
+				C6ED68EA2954DA69003DB112 /* SearchBarView.swift in Sources */,
 				C626222A288650ED00FD74C5 /* Color+Extension.swift in Sources */,
 				C6ED68E32954B4A6003DB112 /* RecomendedWorkoutView.swift in Sources */,
 				C6494A7B28AB09C0002FF97C /* FontManager.swift in Sources */,
 				C6ED68D92953D671003DB112 /* HomeView.swift in Sources */,
+				C6ED68E82954B979003DB112 /* NutritionView.swift in Sources */,
 				C663CAFA28861E280095187D /* FitLifeApp.swift in Sources */,
 				C6ED68E12953F43B003DB112 /* GoalView.swift in Sources */,
 			);

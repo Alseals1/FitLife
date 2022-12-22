@@ -39,7 +39,7 @@ struct ActivityTab: View {
             case .discovery:
                 DiscoveryView()
             case .nutrition:
-                Text("NutritionView")
+                NutritionView()
                 case .workout:
                     Text("WorkoutView")
             }

@@ -12,7 +12,6 @@ struct DiscoveryView: View {
                 }
                 .padding(.vertical)
             }
-            
             RecomendedWorkoutView()
             MostViewMeals()
         }

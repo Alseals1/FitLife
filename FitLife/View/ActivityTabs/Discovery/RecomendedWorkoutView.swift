@@ -15,7 +15,6 @@ struct RecomendedWorkoutView: View {
                 .resizable()
                 .frame(maxWidth: .infinity, maxHeight: 192)
                 .scaledToFill()
-            
             VStack(alignment: .leading, spacing: 6) {
                 Text("Push the Limit")
                     .font(.custom(FontManager.Satoshi.bold, size: 16))
@@ -24,12 +23,10 @@ struct RecomendedWorkoutView: View {
                         Image(systemName: "flame")
                         Text("360 kcal")
                     }
-                    
                     HStack {
                         Image(systemName: "clock")
                         Text("1h 25min")
                     }
-                    
                 }
             }
             .padding()

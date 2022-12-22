@@ -18,7 +18,6 @@ struct GoalView: View {
             .foregroundColor(.black)
         }
     }
-    
     var goals: some View {
         HStack {
             Text(progess)
